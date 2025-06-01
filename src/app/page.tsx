@@ -237,7 +237,7 @@ export default function Home() {
               }
               b1={"Live Chat"}
               b2={"Contact"}
-              paraClass={"lg:text-left"}
+              paraClass={"lg:text-left text-center"}
             />
           </div>
           <div className="absolute w-[40%] h-auto -top-8 right-8">
