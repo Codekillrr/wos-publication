@@ -1,20 +1,23 @@
 import * as React from "react";
 import { Accordion } from "radix-ui";
-import classNames from "classnames";
+import { cn } from "@/lib/utils";
 
 const AccordionCard = () => {
   const items = [
     {
+      id: 1,
       question: "What services does WOS offer?",
       answer:
         "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
     },
     {
+      id: 2,
       question: "What services does WOS offer?",
       answer:
         "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
     },
     {
+      id: 3,
       question: "What services does WOS offer?",
       answer:
         "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
@@ -27,8 +30,12 @@ const AccordionCard = () => {
       defaultValue=""
       collapsible
     >
-      {items.map((item, idx) => (
-        <Accordion.Item key={idx} className="AccordionItem w-full " value="idx">
+      {items.map((item) => (
+        <Accordion.Item
+          key={item.id}
+          className="AccordionItem w-full "
+          value={item.id}
+        >
           <AccordionTrigger>{item.question}</AccordionTrigger>
           <AccordionContent className="">{item.answer}</AccordionContent>
         </Accordion.Item>
@@ -68,10 +75,7 @@ const AccordionTrigger = React.forwardRef(
 const AccordionContent = React.forwardRef(
   ({ children, className, ...props }, forwardedRef) => (
     <Accordion.Content
-      className={classNames(
-        "AccordionContent",
-        "border-b border-gray-300 p-4 my-2"
-      )}
+      className={cn("AccordionContent", "border-b border-gray-300 p-4 my-2")}
       {...props}
       ref={forwardedRef}
     >
