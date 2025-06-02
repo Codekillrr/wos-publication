@@ -22,6 +22,24 @@ const AccordionCard = () => {
       answer:
         "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
     },
+    {
+      id: 4,
+      question: "What services does WOS offer?",
+      answer:
+        "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
+    },
+    {
+      id: 5,
+      question: "What services does WOS offer?",
+      answer:
+        "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
+    },
+    {
+      id: 6,
+      question: "What services does WOS offer?",
+      answer:
+        "At Clarivate Publications, our priority is your satisfaction. We are committed to addressing your concerns and queries promptly. We provide an extensive range of post-production and editing services tailored to your needs.Clarivate Publications offers three tiers of editing services: Scientific, Premium, and Advanced. Each level varies in pricing and the range of services provided, ensuring flexible options to match your requirements.If your manuscript has been rejected by a journal, we specialize in guiding you through the resubmission process. Our experts revise your work based on journal peer reviewers' feedback and provide seamless support from editing to submission, working diligently to help your manuscript get published in a prestigious journal.",
+    },
   ];
   return (
     <Accordion.Root

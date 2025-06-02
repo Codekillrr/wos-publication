@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "daisyui" {
+  themes: light --default;
+}
 
 /* @custom-variant dark (&:is(.dark *));
 
@@ -138,3 +141,10 @@
     }
   }
 }
+button {
+  cursor: pointer;
+}
+
+/* .swiper {
+  padding: 0 50px 50px 50px;
+} */

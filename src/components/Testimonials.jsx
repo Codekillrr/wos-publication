@@ -6,10 +6,11 @@ import Image from "next/image";
 import Stars from "@/components/ui/Stars";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Testimonials = () => {
   const items = [
@@ -31,14 +32,32 @@ const Testimonials = () => {
       para: "",
       icon: "/Testimonials/test1.png",
     },
+    {
+      id: 4,
+      name: "carl",
+      para: "",
+      icon: "/Testimonials/test1.png",
+    },
+    {
+      id: 5,
+      name: "steph",
+      para: "",
+      icon: "/Testimonials/test1.png",
+    },
+    {
+      id: 6,
+      name: "andrew",
+      para: "",
+      icon: "/Testimonials/test1.png",
+    },
   ];
 
   return (
-    <div className="mx-auto h-[560px] w-full p-4 pb-10 lg:h-[450px]">
+    <div className="mx-auto h-[560px] w-full p-4 pb-10 lg:h-[550px]">
       <Swiper
         spaceBetween={10}
-        modules={[Pagination]}
-        className="h-full w-full"
+        modules={[Pagination, Navigation]}
+        className="h-full w-full max-w-300"
         pagination={{
           //el: ".custom-pagination",
           clickable: true,
@@ -46,6 +65,7 @@ const Testimonials = () => {
           //   return `<span class="${className} block h-[1px] flex-1 bg-gray-400 transition-all duration-300"></span>`;
           // },
         }}
+        navigation={true}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -56,11 +76,9 @@ const Testimonials = () => {
           820: {
             slidesPerView: 3, // md screens and up
           },
-          1200: {
-            slidesPerView: 4, // md screens and up
-          },
         }}
       >
+        {/* <div className="mx-20 bg-black"> */}
         {items.map((item) => (
           <SwiperSlide key={item.id} className="">
             <div className="h-auto my-20 w-full border-[1px] border-gray-200 bg-zinc-900 text-white relative">
@@ -88,6 +106,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
         ))}
+        {/* </div> */}
       </Swiper>
     </div>
   );

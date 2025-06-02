@@ -44,7 +44,10 @@ const NavBar = () => {
           <br />
           <span className="text-zinc-600 w-full">+44 7724 695183</span>
         </div>
-        <button className="w-30 max-lg:hidden ring-3 text-yellow-800 font-bold ring-amber-500 p-2 rounded-lg">
+        <button
+          onClick={() => console.log("click")}
+          className="w-30 max-lg:hidden ring-3 text-yellow-800 font-bold ring-amber-500 p-2 rounded-lg"
+        >
           Get Quote
         </button>
         <div
