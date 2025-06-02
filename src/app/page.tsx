@@ -333,6 +333,7 @@ export default function Home() {
             Professional editing and research publication services.
           </p>
         </aside>
+
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>
@@ -346,6 +347,11 @@ export default function Home() {
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Lets Talk</h6>
+          <a className="link link-hover">info@wospublication.com</a>
+          <a className="link link-hover">+44 7724 695183</a>
         </nav>
         <nav>
           <h6 className="footer-title">Social</h6>
