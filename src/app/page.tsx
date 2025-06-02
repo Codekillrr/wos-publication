@@ -28,7 +28,7 @@ export default function Home() {
       <header className="z-10 relative">
         <NavBar />
       </header>
-      <main>
+      <main className="">
         <div className="relative h-auto w-full lg:h-180">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="my-10 mt-35 text-center text-white text-[2rem] lg:text-6xl lg:px-30 font-bold px-2">
@@ -59,7 +59,7 @@ export default function Home() {
           />
         </div>
 
-        <div>
+        <div className="">
           <InfiniteMovingCards
             items={patners}
             direction="left"
@@ -83,17 +83,10 @@ export default function Home() {
               }
             />
             <SpinningCard
-              titleW={"Thesis"}
-              titleB={"Editing"}
+              titleW={"Artwork"}
+              titleB={"Services"}
               para={
-                "To support your academic success, we offer thesis editing services designed to make your thesis flawless, eliminating all errors and ensuring perfection."
-              }
-            />
-            <SpinningCard
-              titleW={"Peer"}
-              titleB={"Review"}
-              para={
-                "Our highly skilled and experienced team specializes in peer review support, significantly enhancing your chances of success."
+                "Our artwork services assist in refining your images and graphs, ensuring that all technical elements of your manuscript comply with journal guidelines."
               }
             />
             <SpinningCard
@@ -104,15 +97,23 @@ export default function Home() {
               }
             />
             <SpinningCard
-              titleW={"Peer"}
-              titleB={"Review"}
+              titleW={"Literature"}
+              titleB={"Search"}
               para={
-                "Our highly skilled and experienced team specializes in peer review support, significantly enhancing your chances of success."
+                "We offer the highest quality literature search services, backed by a team of experts across various fields, dedicated to assisting you in finding the most relevant research and sources for your work."
+              }
+            />
+
+            <SpinningCard
+              titleW={"Research Paper"}
+              titleB={"Editing"}
+              para={
+                "Our exceptional research paper editing services are designed to help clients achieve academic excellence. We go the extra mile to support their success and elevate their work."
               }
             />
             <SpinningCard
-              titleW={"Thesis"}
-              titleB={"Editing"}
+              titleW={"Statistical"}
+              titleB={"Analysis"}
               para={
                 "To support your academic success, we offer thesis editing services designed to make your thesis flawless, eliminating all errors and ensuring perfection."
               }
@@ -204,7 +205,7 @@ export default function Home() {
         </div>
         <div className="bg-amber-200/90 py-1 lg:h-110">
           <div className="my-10 mb-5 text-center text-black lg:text-5xl text-[2rem] font-bold px-2">
-            Clarivate Publication: Your Partner in Turning
+            WOS Publication: Your Partner in Turning
             <br />
             <span className="text-yellow-700 text-4xl lg:text-6xl">
               {" "}
@@ -214,15 +215,15 @@ export default function Home() {
 
           <Request
             Para={
-              "Partner with Clarivate Publication for expert support in refining and publishing your work. Contact us today!"
+              "Partner with WOS Publication for expert support in refining and publishing your work. Contact us today!"
             }
             b1={"Get A Quote"}
             b2={"Call now"}
             paraClass={"text-center"}
           />
         </div>
-        <div className="relative flex lg:min-h-150">
-          <div className="py-1 lg:w-[60%] flex flex-col justify-center items-center">
+        <div className="relative lg:flex lg:min-h-150 lg:mb-10">
+          <div className="py-1 lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-center">
             <div className="my-10 mb-5 text-center lg:text-left lg:flex lg:justify-center text-black lg:text-4xl lg:w-full lg:mb-10 text-[2rem] font-bold px-2">
               <h2 className="max-w-120">
                 <span className="text-yellow-500 ">High-quality</span> yet
@@ -240,60 +241,66 @@ export default function Home() {
               paraClass={"lg:text-left text-center"}
             />
           </div>
-          <div className="absolute w-[40%] h-auto -top-8 right-8">
+          <div className="absolute max-lg:hidden w-[40%] h-auto -top-8 right-8">
             <Image
               src={"/girl2.webp"}
               alt=""
-              width={450}
-              height={450}
+              width={420}
+              height={420}
               className="object-contain"
             />
           </div>
         </div>
 
-        <div className="py-10">
-          <div className="my-10 mb-5 text-center text-black text-[2rem] font-bold px-2">
-            <h2>
-              Frequently Asked <span className="text-yellow-500">Question</span>
-            </h2>
+        <div className="lg:grid lg:grid-flow-col lg:grid-row-2 lg:gap-15">
+          <div className="py-10 lg:py-0 lg:flex lg:justify-end">
+            <div className="lg:w-170 ">
+              <div className="my-10 lg:my-5 mb-5 text-center text-black text-[2rem] lg:text-5xl font-bold px-2">
+                <h2>
+                  Frequently Asked{" "}
+                  <span className="text-yellow-500">Question</span>
+                </h2>
+              </div>
+              <AccordianCard />
+            </div>
           </div>
-          <AccordianCard />
-        </div>
-        <div className="p-2 mb-30">
-          <div className="rounded-2xl bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400 border border-gray-400 p-4 m-2">
-            <h2 className="w-full text-center text-zinc-700 text-4xl px-2 mt-6 font-bold">
-              Speak to our Experts
-            </h2>
-            <div className="px-5 my-10 mb-6">
-              <input
-                type="text"
-                placeholder="Full Name"
-                className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-              ></input>
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-              ></input>
-              <input
-                type="number"
-                placeholder="Phone"
-                className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-              ></input>
-              <textarea
-                placeholder="Project discribtion"
-                className="w-full mb-7 bg-white border-black p-2 rounded-md h-25 focus:outline-none border-1 focus:ring-1"
-              ></textarea>
+          <div className="p-2 mb-30 lg:px-7 lg:min-w-60 lg:flex lg:justify-start">
+            <div className="rounded-2xl bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400 border border-gray-400 p-4 m-2 lg:w-120">
+              <h2 className="w-full text-center text-zinc-700 text-4xl px-2 mt-6 font-bold">
+                Speak to our Experts
+              </h2>
+              <div className="px-5 my-10 mb-6">
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
+                ></input>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
+                ></input>
+                <input
+                  type="number"
+                  placeholder="Phone"
+                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
+                ></input>
+                <textarea
+                  placeholder="Project discribtion"
+                  className="w-full mb-7 bg-white border-black p-2 rounded-md h-25 focus:outline-none border-1 focus:ring-1"
+                ></textarea>
 
-              <div className="w-full flex justify-center">
-                <button className="w-auto text-zinc-700 font-bold rounded-md border-2 px-7 border-amber-700 bg-yellow-400  p-2">
-                  Submit{" "}
-                </button>
+                <div className="w-full flex justify-center">
+                  <button className="w-auto text-zinc-700 font-bold rounded-md border-2 px-7 border-amber-700 bg-yellow-400  p-2">
+                    Submit{" "}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-2 mb-10">
+
+        <div className="p-2 mb-10 ">
           <div className="my-10 mb-5 text-center text-black text-[2rem] font-bold px-2">
             <h2>
               Reviewed by Satisfied{" "}
