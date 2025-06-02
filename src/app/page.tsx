@@ -6,6 +6,7 @@ import DotCard from "@/components/DotCard";
 import Request from "@/components/Request";
 import AccordianCard from "@/components/AccordianCard";
 import Testimonials from "@/components/Testimonials";
+import ContactForm from "@/components/ContactForm";
 
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
@@ -42,10 +43,10 @@ export default function Home() {
               and giving your career a valuable boost.
             </p>
             <div className="my-8 mt-5 p-4 lg:px-80 w-full flex justify-evenly text-white">
-              <button className="px-4 py-2 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
+              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-white/20 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
                 Live Chat
               </button>
-              <button className="px-4 py-2 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
+              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-white/20 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
                 Get Started
               </button>
             </div>
@@ -265,38 +266,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-2 mb-30 lg:mt-10 lg:px-7 lg:min-w-60 lg:flex lg:justify-start">
-            <div className="rounded-2xl bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400 border border-gray-400 p-4 m-2 lg:w-120 shadow-2xl">
-              <h2 className="w-full text-center text-zinc-700 text-4xl px-2 mt-6 font-bold">
-                Speak to our Experts
-              </h2>
-              <div className="px-5 my-10 mb-6">
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-                ></input>
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-                ></input>
-                <input
-                  type="number"
-                  placeholder="Phone"
-                  className="w-full mb-5 bg-white border-black p-2 rounded-md h-12 focus:outline-none border-1 focus:ring-1"
-                ></input>
-                <textarea
-                  placeholder="Project discribtion"
-                  className="w-full mb-7 bg-white border-black p-2 rounded-md h-25 focus:outline-none border-1 focus:ring-1"
-                ></textarea>
-
-                <div className="w-full flex justify-center">
-                  <button className="w-auto text-zinc-700 font-bold rounded-md border-2 px-7 border-amber-700 bg-yellow-400  p-2">
-                    Submit{" "}
-                  </button>
-                </div>
-              </div>
-            </div>
+            <ContactForm />
           </div>
         </div>
 
@@ -367,18 +337,26 @@ export default function Home() {
                 <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
               </svg>
             </a>
-            <a>
+            <a
+              href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-current"
+                width="30"
+                height="30"
+                viewBox="0 0 16 16"
+                className="bi bi-whatsapp pb-1"
               >
-                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
               </svg>
             </a>
-            <a>
+            <a
+              href="https://www.facebook.com/share/16cHw6wbrP/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -392,8 +370,8 @@ export default function Home() {
           </div>
         </nav>
       </footer>
-
-      {/* <footer className="text-white lg:flex lg:flex-row text-center bg-black p-4 py-12 pb-2">
+      <>
+        {/* <footer className="text-white lg:flex lg:flex-row text-center bg-black p-4 py-12 pb-2">
         <div>
           <div className="text-2xl text-yellow-400 font-bold ">
             Follow us on
@@ -444,7 +422,9 @@ export default function Home() {
           © 2025 Copyrights <span className="text-yellow-500">IMN ARTS</span>
           <br className="lg:hidden" /> All Rights Reserved.
         </div>
+
       </footer> */}
+      </>
     </div>
   );
 }

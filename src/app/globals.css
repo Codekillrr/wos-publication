@@ -145,6 +145,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  cursor: pointer;
+}
+
 /* .swiper {
   padding: 0 50px 50px 50px;
 } */
