@@ -265,7 +265,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-2 mb-30 lg:mt-10 lg:px-7 lg:min-w-60 lg:flex lg:justify-start">
-            <div className="rounded-2xl bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400 border border-gray-400 p-4 m-2 lg:w-120">
+            <div className="rounded-2xl bg-gradient-to-t from-yellow-600 via-yellow-500 to-yellow-400 border border-gray-400 p-4 m-2 lg:w-120 shadow-2xl">
               <h2 className="w-full text-center text-zinc-700 text-4xl px-2 mt-6 font-bold">
                 Speak to our Experts
               </h2>
