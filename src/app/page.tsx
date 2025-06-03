@@ -34,8 +34,10 @@ export default function Home() {
         <div className="relative h-auto w-full lg:h-180">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="my-10 mt-35 text-center text-white text-[2rem] lg:text-6xl lg:px-30 font-bold px-2">
-              Provide Support for Research Publications and English Editing
-              Service
+              Provide Support for
+              <span className="text-yellow-300"> Research Publications </span>
+              and{" "}
+              <span className="text-yellow-300">English Editing Service</span>
             </div>
             <p className="text-center text-white px-2 lg:px-30 lg:text-xl">
               At WOS Publications, we offer professional editing and research
@@ -44,15 +46,15 @@ export default function Home() {
               and giving your career a valuable boost.
             </p>
             <div className="my-8 mt-5 p-4 lg:px-80 w-full flex justify-evenly text-white">
-              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-white/20 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
+              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-yellow-300/20  w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white hover:border-yellow-400 rounded-lg">
                 Live Chat
               </button>
-              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-white/20 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white rounded-lg">
+              <button className="px-4 py-2 btn bg-transparent text-white hover:bg-yellow-300/20 hover:text-yellow-400 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white hover:border-yellow-400 rounded-lg">
                 Get Started
               </button>
             </div>
           </div>
-          <div className="absolute h-full w-full bg-gradient-to-tr from-black via-black/60 to-black/40 -z-8 left-0 top-0"></div>
+          <div className="absolute h-full w-full bg-gradient-to-tr from-yellow-200/50 via-black/40 to-yellow-200/50 -z-8 left-0 top-0"></div>
           <Image
             src={"/bannerhome.webp"}
             alt=""

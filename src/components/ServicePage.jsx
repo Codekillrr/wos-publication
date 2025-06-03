@@ -35,10 +35,10 @@ const ServicePage = ({ Service }) => {
                 meticulously reviews your work, ensuring clarity, coherence, and
                 compliance with academic standards.
               </p>
-              <button className="btn btn-outline btn-lg btn-info">
+              <button className="btn btn-outline lg:btn-lg btn-info">
                 Live Chat
               </button>
-              <button className="btn ml-4 btn-outline btn-lg btn-info">
+              <button className="btn ml-4 btn-outline lg:btn-lg btn-info">
                 Get Started
               </button>
             </div>
@@ -47,7 +47,7 @@ const ServicePage = ({ Service }) => {
 
         <div className="lg:my-20 my-8">
           <div className="w-full flex flex-col justify-center items-center">
-            <div className="lg:pr-40 px-10">
+            <div className="lg:pr-40 lg:px-10">
               <h1 className="mb-5 text-5xl font-bold">
                 Choose Any <span className="text-yellow-500">Subject </span>
                 For Help With <span className="text-yellow-500">
@@ -55,7 +55,7 @@ const ServicePage = ({ Service }) => {
                 </span>{" "}
                 services{" "}
               </h1>
-              <p className="max-w-170 p-1">
+              <p className="lg:w-170 p-1">
                 We provide thesis editing for dozens of subjects. Choose your
                 topic of interest and elevate and enhance your thesis for
                 academic excellence.
@@ -64,16 +64,14 @@ const ServicePage = ({ Service }) => {
           </div>
 
           <div className="hero">
-            <div className="hero-content flex-col lg:flex-row">
-              <div className="w-full max-w-2xl shrink-0 p-4">
-                <div className="card-body">
-                  <Subjects />
-                </div>
+            <div className="lg:w-[80rem] flex flex-col lg:flex-row">
+              <div className="lg:w-2xl shrink-0 p-4">
+                <Subjects />
               </div>
               <div className="">
                 <img
                   src="/service1.png "
-                  className="lg:max-w-2xl md:max-w-md rounded-lg"
+                  className="lg:w-2xl md:w-md rounded-lg"
                 />
               </div>
             </div>
@@ -82,7 +80,7 @@ const ServicePage = ({ Service }) => {
 
         <div className="hero bg-base-200 h-auto">
           <div className="hero-content flex-col lg:flex-row pb-0">
-            <img src="/service2.png" className="max-w-2xl max-md:max-w-md" />
+            <img src="/service2.png" className="lg:w-2xl max-md:w-md" />
             <div className="lg:w-150">
               <h1 className="text-5xl font-bold lg:w-150">
                 Leave a Lasting Impression with Our Expert{" "}
@@ -106,7 +104,7 @@ const ServicePage = ({ Service }) => {
         </div>
         <div className="w-full px-[10%]">
           <div className="w-full min-h-100 border-white border-1 rounded-2xl bg-black">
-            <h1 className="text-5xl font-bold text-white p-10 px-15 text-center">
+            <h1 className="text-5xl font-bold text-white p-3 lg:p-10 lg:px-15 text-center">
               Our Approach to Delivering Exceptional{" "}
               <span className="text-yellow-500">Thesis Editing Services</span>
             </h1>

@@ -11,9 +11,9 @@ export default function About() {
       </header>
       <main className="">
         <div className="relative h-auto w-full lg:h-180">
-          <div className="hero min-h-screen bg-transparent">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-              <img src="/computer1.png " className="max-w-lg rounded-lg" />
+          <div className="hero min-h-full bg-transparent ">
+            <div className="hero-content flex-col lg:flex-row-reverse max-lg:mt-18 max-lg:mb-10">
+              <img src="/computer1.png " className="w-lg rounded-lg" />
               <div>
                 <h1 className="text-5xl font-bold text-white">About Us</h1>
                 <p className="py-6 text-white">
@@ -27,10 +27,10 @@ export default function About() {
                   positive experience throughout the process. Our commitment to
                   excellence means we never compromise on quality.
                 </p>
-                <button className="btn btn-outline btn-lg btn-info">
+                <button className="btn btn-outline lg:btn-lg btn-info">
                   Live Chat
                 </button>
-                <button className="btn ml-4 btn-outline btn-lg btn-info">
+                <button className="btn ml-4 btn-outline lg:btn-lg btn-info">
                   Get Started
                 </button>
               </div>
@@ -47,7 +47,7 @@ export default function About() {
 
         <div className="hero bg-base-200 min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="/mission.png " className="max-w-xl rounded-lg" />
+            <img src="/mission.png " className="w-xl rounded-lg" />
             <div className="ml-5">
               <h1 className="text-5xl font-bold">Our Mission</h1>
               <p className="py-6">
@@ -63,7 +63,7 @@ export default function About() {
                 services to academic, publishing, and pharmaceutical
                 communities, ensuring top-quality results every time.
               </p>
-              <button className="btn btn-outline btn-xl btn-primary">
+              <button className="btn btn-outline lg:btn-xl btn-primary">
                 Get Started
               </button>
             </div>

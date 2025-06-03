@@ -149,6 +149,9 @@ a {
   cursor: pointer;
 }
 
+.custom-inner {
+  padding: auto;
+}
 /* .swiper {
   padding: 0 50px 50px 50px;
 } */

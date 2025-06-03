@@ -24,8 +24,8 @@ export default function ContactUs() {
         <NavBar />
       </header>
       <main className="">
-        <div className="relative h-auto w-full lg:h-180 flex pl-25">
-          <div className="hero min-h-full bg-transparent">
+        <div className="relative h-auto w-full lg:h-180 flex lg:pl-25">
+          <div className="hero min-h-full bg-transparent max-lg:mt-25">
             <div className="hero-content flex-col lg:flex-row">
               <div>
                 <h1 className="text-5xl font-bold text-white">Contact Us</h1>
@@ -33,11 +33,11 @@ export default function ContactUs() {
                   "Reach Out to Us to Get Professional Editing Services and
                   Publication Support"
                 </p>
-                <button className="btn btn-outline btn-lg btn-info">
+                <button className="btn btn-outline lg:btn-lg btn-info">
                   Schedule Call
                 </button>
               </div>
-              <img src="/contact.png " className="max-w-xl rounded-lg" />
+              <img src="/contact.png " className="w-xl rounded-lg" />
             </div>
           </div>
           <div className="absolute h-full w-full bg-gradient-to-tr from-black via-black/60 to-black/40 -z-8 left-0 top-0"></div>

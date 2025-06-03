@@ -24,11 +24,11 @@ const Subjects = () => {
     "Archeology",
   ];
   return (
-    <div className="grid grid-flow-col grid-rows-7 gap-5">
+    <div className="grid grid-flow-col grid-rows-7 lg:gap-5 gap-2.5">
       {items.map((subject, idx) => (
         <div
           key={idx}
-          className="lg:px-4 px-2 py-1.5 shadow-md border-b-2 border-1 max-w-50 rounded-4xl"
+          className="lg:px-4 px-2 py-1.5 shadow-md border-b-2 border-1 lg:w-50 rounded-4xl"
         >
           {subject}
         </div>
