@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import NavBar from "@/components/NavBar";
 import SpinningCard from "@/components/SpinningCard";
 import IconCard from "@/components/IconCard";
@@ -47,10 +49,16 @@ export default function Home() {
             </p>
             <div className="my-8 mt-5 p-4 lg:px-80 w-full flex justify-evenly text-white">
               <button className="px-4 py-2 btn bg-transparent text-white hover:bg-yellow-300/20  w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white hover:border-yellow-400 rounded-lg">
-                Live Chat
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+                >
+                  Live Chat
+                </a>
               </button>
               <button className="px-4 py-2 btn bg-transparent text-white hover:bg-yellow-300/20 hover:text-yellow-400 w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white hover:border-yellow-400 rounded-lg">
-                Get Started
+                <Link href="/contact-us">Get Started</Link>
               </button>
             </div>
           </div>
