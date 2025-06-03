@@ -23,25 +23,25 @@ const Testimonials = () => {
     {
       id: 2,
       name: "Stepheny",
-      para: "There was an issue with the quality of the English in my manuscript, but the editors at Clarivate Publication did an excellent job refining it. Thanks to their hard work, my research was accepted for publication. I will definitely reach out to them again in the future.",
+      para: "There was an issue with the quality of the English in my manuscript, but the editors at WOS Publication did an excellent job refining it. Thanks to their hard work, my research was accepted for publication. I will definitely reach out to them again in the future.",
       icon: "/Testimonials/test2.png",
     },
     {
       id: 3,
       name: "Ben",
-      para: "I'm grateful to Clarivate Publication for transforming my paper into a professionally written piece. I'm very pleased with the results and will definitely make them my first choice for editing any future research manuscripts.",
+      para: "I'm grateful to WOS Publication for transforming my paper into a professionally written piece. I'm very pleased with the results and will definitely make them my first choice for editing any future research manuscripts.",
       icon: "/Testimonials/test3.png",
     },
     {
       id: 4,
       name: "Andrew",
-      para: "I’m extremely grateful to Clarivate Publication for editing my dissertation. Their expert editors played a key role in perfecting my work, ultimately helping me achieve my post-graduation. This was my first time using their services to edit a manuscript, and I’m truly impressed by the exceptional quality of the editing.",
+      para: "I’m extremely grateful to WOS Publication for editing my dissertation. Their expert editors played a key role in perfecting my work, ultimately helping me achieve my post-graduation. This was my first time using their services to edit a manuscript, and I’m truly impressed by the exceptional quality of the editing.",
       icon: "/Testimonials/test4.png",
     },
     {
       id: 5,
       name: "Tisha",
-      para: "I can't emphasize enough how fortunate I feel to have discovered Clarivate Publication. Their Amazon marketing services are truly the best in the industry, and their team is outstanding. They've certainly earned my trust, and I'll be a returning client for sure!",
+      para: "I can't emphasize enough how fortunate I feel to have discovered WOS Publication. Their Amazon marketing services are truly the best in the industry, and their team is outstanding. They've certainly earned my trust, and I'll be a returning client for sure!",
       icon: "/Testimonials/test5.png",
     },
     // {
