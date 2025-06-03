@@ -3,19 +3,6 @@ import NavBar from "@/components/NavBar";
 import Testimonials from "@/components/Testimonials";
 
 export default function About() {
-  const patners = [
-    { img: "/client_logos/asme.webp", alt: "asme" },
-    { img: "/client_logos/blood.webp", alt: "blood" },
-    { img: "/client_logos/elsevier.webp", alt: "elsevier" },
-    { img: "/client_logos/esc.webp", alt: "esc" },
-    { img: "/client_logos/fsg.png", alt: "fsg" },
-    { img: "/client_logos/ieee.png", alt: "ieee" },
-    { img: "/client_logos/plos.webp", alt: "plos" },
-    { img: "/client_logos/qs.png", alt: "qs" },
-    { img: "/client_logos/rsc.png", alt: "rsc" },
-    { img: "/client_logos/thieme.webp", alt: "thieme" },
-  ];
-
   return (
     <div>
       <header className="z-10 relative">
@@ -29,15 +16,15 @@ export default function About() {
               <div>
                 <h1 className="text-5xl font-bold text-white">About Us</h1>
                 <p className="py-6 text-white">
-                  At Clarivate Publication, we are a leading provider of
-                  research publication and manuscript editing services,
-                  assisting researchers from around the world. With years of
-                  experience working with researchers across nearly every
-                  country, our primary goal is to help them refine their
-                  research and achieve successful publication. We prioritize our
-                  customers' needs, ensuring they receive the highest quality
-                  service and a positive experience throughout the process. Our
-                  commitment to excellence means we never compromise on quality.
+                  At WOS Publication, we are a leading provider of research
+                  publication and manuscript editing services, assisting
+                  researchers from around the world. With years of experience
+                  working with researchers across nearly every country, our
+                  primary goal is to help them refine their research and achieve
+                  successful publication. We prioritize our customers' needs,
+                  ensuring they receive the highest quality service and a
+                  positive experience throughout the process. Our commitment to
+                  excellence means we never compromise on quality.
                 </p>
                 <button className="btn btn-outline btn-lg btn-info">
                   Live Chat

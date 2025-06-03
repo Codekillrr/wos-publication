@@ -28,7 +28,7 @@ const Subjects = () => {
       {items.map((subject, idx) => (
         <div
           key={idx}
-          className="px-4 py-1.5 shadow-md border-b-2 border-1 min-w-50 rounded-4xl"
+          className="lg:px-4 px-2 py-1.5 shadow-md border-b-2 border-1 max-w-50 rounded-4xl"
         >
           {subject}
         </div>

@@ -53,97 +53,100 @@ const NavBar = () => {
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
             >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <div class="custom-inner ">
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/thesis-editing/">
+                    <a className="dropdown-item" href="/thesis-editing/">
                       {" "}
                       Thesis Editing
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/dissertation-editing/">
+                    <a className="dropdown-item" href="/dissertation-editing/">
                       Dissertation Editing
                     </a>
                   </li>
 
-                  <div class="custom-inner ">
+                  <div className="custom-inner ">
                     <li>
-                      <a class="dropdown-item" href="/research-paper-editing/">
+                      <a
+                        className="dropdown-item"
+                        href="/research-paper-editing/"
+                      >
                         Research Paper Editing Services
                       </a>
                     </li>
                   </div>
-                  <div class="custom-inner ">
+                  <div className="custom-inner ">
                     <li>
-                      <a class="dropdown-item" href="/artwork-services/">
+                      <a className="dropdown-item" href="/artwork-services/">
                         {" "}
                         Artwork Services
                       </a>
                     </li>
                   </div>
-                  <div class="custom-inner ">
+                  <div className="custom-inner ">
                     <li>
-                      <a class="dropdown-item" href="/proof-reading/">
+                      <a className="dropdown-item" href="/proof-reading/">
                         {" "}
                         Proofreading Service
                       </a>
                     </li>
                   </div>
-                  <div class="custom-inner ">
+                  <div className="custom-inner ">
                     <li>
-                      <a class="dropdown-item" href="/reseach-proposal/">
+                      <a className="dropdown-item" href="/reseach-proposal/">
                         {" "}
                         Research Proposal
                       </a>
                     </li>
                   </div>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/statistical-analysis/">
+                    <a className="dropdown-item" href="/statistical-analysis/">
                       Statistical Analysis
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/journal-selection/">
+                    <a className="dropdown-item" href="/journal-selection/">
                       Journal Selection
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
                     <a
-                      class="dropdown-item"
+                      className="dropdown-item"
                       href="/resubmission-support-service/"
                     >
                       Resubmission Support Service
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/peer-review-services/">
+                    <a className="dropdown-item" href="/peer-review-services/">
                       {" "}
                       Peer Review Services
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/plagiarism-checker/">
+                    <a className="dropdown-item" href="/plagiarism-checker/">
                       {" "}
                       Plagiarism Checker
                     </a>
                   </li>
                 </div>
-                <div class="custom-inner ">
+                <div className="custom-inner ">
                   <li>
-                    <a class="dropdown-item" href="/literature-search/">
+                    <a className="dropdown-item" href="/literature-search/">
                       {" "}
                       Literature Search
                     </a>
