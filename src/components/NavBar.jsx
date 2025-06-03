@@ -168,11 +168,14 @@ const NavBar = () => {
             <br />
             <span className="text-zinc-600 w-full">+44 7724 695183</span>
           </div>
-          <button
-            onClick={() => console.log("click")}
-            className="w-30 max-lg:hidden btn ring-3 hover:bg-gradient-to-t from-yellow-300/60 to-transparent text-yellow-800 font-bold ring-yellow-300 p-2 rounded-lg"
-          >
-            Get Quote
+          <button className="w-30 max-lg:hidden btn ring-3 hover:bg-gradient-to-t from-yellow-300/60 to-transparent text-yellow-800 font-bold ring-yellow-300 p-2 rounded-lg">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/447724695183?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
+            >
+              Get Quote
+            </a>
           </button>
         </div>
 
@@ -339,7 +342,13 @@ const NavBar = () => {
               <div className="text-yellow-500">+44 (161) 791-3367</div>
             </span>
             <button className="text-[0.9rem] font-bold text-yellow-500 p-2 border-2 border-yellow-300 rounded-lg">
-              GET QUOTE
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/447724695183?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
+              >
+                GET QUOTE
+              </a>
             </button>
           </div>
         </div>
