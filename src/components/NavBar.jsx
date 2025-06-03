@@ -15,7 +15,7 @@ const NavBar = () => {
           <Image src={"/logo.png"} alt="logo" width={80} height={80} />
           <span className="flex flex-col space-x-0">
             <div className="font-bold text-yellow-600 text-[1.2rem]"> WOS</div>
-            <div className="text-yellow-600">Publitations</div>
+            <div className="text-yellow-600">Publications</div>
           </span>
         </span>
         <div className="flex flex-row space-x-15 items-center pl-15 pr-5 max-lg:hidden">
