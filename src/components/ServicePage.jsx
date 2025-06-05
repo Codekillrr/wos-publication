@@ -39,8 +39,7 @@ const ServicePage = ({
           <div className="hero-content text-neutral-content text-center">
             <div className="max-w-6xl pt-20">
               <h1 className="mb-5 text-5xl font-bold">
-                {titleW}
-                <span className="text-yellow-300">{titleY} </span>
+                {titleW} <span className="text-yellow-300">{titleY}</span>
               </h1>
               <p className="mb-5">{para1}</p>
               <button className="btn btn-outline lg:btn-lg btn-info">
@@ -89,8 +88,7 @@ const ServicePage = ({
             <img src="/service2.png" className="lg:w-2xl max-md:w-md" />
             <div className="lg:w-150">
               <h1 className="text-5xl font-bold lg:w-150">
-                {title2W}
-                <span className="text-yellow-500">{title2Y}</span>
+                {title2W} <span className="text-yellow-500">{title2Y}</span>
               </h1>
               <p className="py-6 lg:w-160">{para2}</p>
             </div>
@@ -99,8 +97,7 @@ const ServicePage = ({
         <div className="w-full px-[10%]">
           <div className="w-full min-h-100 border-white border-1 rounded-2xl bg-black shadow-2xl">
             <h1 className="text-5xl font-bold text-white p-3 lg:p-10 lg:px-15 text-center">
-              {title3W}
-              <span className="text-yellow-500">{title3Y}</span>
+              {title3W} <span className="text-yellow-500">{title3Y}</span>
             </h1>
             <div className=" flex flex-col lg:space-y-0 max-lg:items-center space-y-10 lg:flex-row justify-evenly">
               <div className="card bg-zinc-800 text-primary-content max-w-96 max-md:mx-2 pb-40">
