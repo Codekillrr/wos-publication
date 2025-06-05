@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import NavBar from "@/components/NavBar";
 import SpinningCard from "@/components/SpinningCard";
-import IconCard from "@/components/IconCard";
+import IconCardSection from "@/components/IconCardSection";
 import DotCard from "@/components/DotCard";
 import Request from "@/components/Request";
 import AccordianCard from "@/components/AccordianCard";
@@ -83,8 +83,8 @@ export default function Home() {
         <div className="bg-gray-100 px-2 pb-10 ">
           <h2 className="text-center text-[2rem] lg:text-6xl py-12 font-bold">
             Our Premier Research{" "}
-            <span className="text-yellow-600">Publication</span> and <br />{" "}
-            <span className="text-yellow-600">Paper Editing</span> Services
+            <span className="text-yellow-300">Publication</span> and <br />{" "}
+            <span className="text-yellow-300">Paper Editing</span> Services
           </h2>
           <div className="lg:grid lg:grid-flow-col lg:grid-rows-2">
             <SpinningCard
@@ -132,59 +132,8 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="py-10 px-2">
-          <h4 className="text-center text-xl lg:text-2xl text-yellow-500 px-4 font-bold">
-            How We Achieve Excellence in What We Do
-          </h4>
-          <h1 className=" text-center text-4xl lg:text-6xl lg:mt-5  font-bold">
-            Our Professional English Editing <br />
-            <span className="text-yellow-500">Service Process</span>
-          </h1>
-          <div className="lg:grid lg:grid-flow-col lg:grid-rows-2 lg:px-60">
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-            <IconCard
-              Icon={"/icon1.webp"}
-              Title={"Finding the right expert"}
-              Para={
-                "After understanding your requirements, we introduce you to our top experts, allowing you to choose the one best suited for your research paper and journal selection. You can select the expert you believe will be the most suitable for your needs."
-              }
-            />
-          </div>
-        </div>
+        <IconCardSection />
+
         <div className="my-15 mx-2">
           <h1 className="text-4xl lg:text-6xl lg:px-40 text-center font-bold mb-5">
             We offer{" "}
@@ -281,7 +230,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-2 mb-10 ">
+        <div className="p-2 mb-10 bg-gradient-to-b from-yellow-50 to-white">
           <div className="my-10 mb-5 text-center text-black lg:text-6xl text-[2rem] font-bold px-2">
             <h2>
               Reviewed by Satisfied{" "}
@@ -299,7 +248,7 @@ export default function Home() {
               publication.
             </p>
           </div>
-          <div className="w-full">
+          <div className="w-full ">
             <Testimonials />
           </div>
         </div>

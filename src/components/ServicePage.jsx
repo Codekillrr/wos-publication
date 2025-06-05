@@ -4,7 +4,23 @@ import Subjects from "@/components/Subjects";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 
-const ServicePage = ({ Service }) => {
+const ServicePage = ({
+  Service,
+  titleW,
+  titleY,
+  para1,
+  title2W,
+  title2Y,
+  para2,
+  title3W,
+  title3Y,
+  cardTitle1,
+  cardpara1,
+  cardTitle2,
+  cardpara2,
+  cardTitle3,
+  cardpara3,
+}) => {
   return (
     <div>
       <header className="z-10 relative">
@@ -23,18 +39,10 @@ const ServicePage = ({ Service }) => {
           <div className="hero-content text-neutral-content text-center">
             <div className="max-w-6xl pt-20">
               <h1 className="mb-5 text-5xl font-bold">
-                Professional {Service} and{" "}
-                <span className="text-yellow-500">Editing Services</span>
+                {titleW}
+                <span className="text-yellow-300">{titleY} </span>
               </h1>
-              <p className="mb-5">
-                Theses play a crucial role in your academic journey, and we are
-                here to simplify the process for you. With our advanced thesis
-                checker, you can confidently ensure the quality of your work.
-                Recognizing the importance of excellence, we offer top-tier
-                thesis writing services. Our team of expert PhD thesis editors
-                meticulously reviews your work, ensuring clarity, coherence, and
-                compliance with academic standards.
-              </p>
+              <p className="mb-5">{para1}</p>
               <button className="btn btn-outline lg:btn-lg btn-info">
                 Live Chat
               </button>
@@ -49,11 +57,9 @@ const ServicePage = ({ Service }) => {
           <div className="w-full flex flex-col justify-center items-center">
             <div className="lg:pr-40 lg:px-10">
               <h1 className="mb-5 text-5xl font-bold">
-                Choose Any <span className="text-yellow-500">Subject </span>
-                For Help With <span className="text-yellow-500">
-                  Writing{" "}
-                </span>{" "}
-                services{" "}
+                Choose Any <span className="text-yellow-300">Subject </span>
+                For Help With <span className="text-yellow-300">Writing </span>
+                services
               </h1>
               <p className="lg:w-170 p-1">
                 We provide thesis editing for dozens of subjects. Choose your
@@ -83,80 +89,43 @@ const ServicePage = ({ Service }) => {
             <img src="/service2.png" className="lg:w-2xl max-md:w-md" />
             <div className="lg:w-150">
               <h1 className="text-5xl font-bold lg:w-150">
-                Leave a Lasting Impression with Our Expert{" "}
-                <span className="text-yellow-500">Thesis Writing Services</span>
+                {title2W}
+                <span className="text-yellow-500">{title2Y}</span>
               </h1>
-              <p className="py-6 lg:w-160">
-                Our team of highly skilled professionals brings unmatched
-                academic expertise to make your thesis flawless and exceptional.
-                Our expert editors meticulously review your thesis for grammar,
-                formatting, and structural errors, ensuring every aspect meets
-                the highest academic standards. We go beyond basic editing by
-                carefully analyzing syntax, style, and structure to preserve the
-                uniqueness and quality of your work. At Clarivate Publication,
-                we are committed to delivering excellence, making us one of the
-                leading providers of thesis editing services. Choose us for
-                affordable yet premium-quality thesis editing that ensures your
-                academic success!
-              </p>
+              <p className="py-6 lg:w-160">{para2}</p>
             </div>
           </div>
         </div>
         <div className="w-full px-[10%]">
-          <div className="w-full min-h-100 border-white border-1 rounded-2xl bg-black">
+          <div className="w-full min-h-100 border-white border-1 rounded-2xl bg-black shadow-2xl">
             <h1 className="text-5xl font-bold text-white p-3 lg:p-10 lg:px-15 text-center">
-              Our Approach to Delivering Exceptional{" "}
-              <span className="text-yellow-500">Thesis Editing Services</span>
+              {title3W}
+              <span className="text-yellow-500">{title3Y}</span>
             </h1>
             <div className=" flex flex-col lg:space-y-0 max-lg:items-center space-y-10 lg:flex-row justify-evenly">
               <div className="card bg-zinc-800 text-primary-content max-w-96 max-md:mx-2 pb-40">
                 <div className="card-body">
-                  <h2 className="card-title text-yellow-500">
-                    Review and Evaluation
-                  </h2>
-                  <p>
-                    To begin the thesis editing process, submit your thesis and
-                    place your order. We accept formats like Word, DOC, and
-                    DOCX. Once received, our expert editors review the document
-                    thoroughly, considering its scope, subject, and any specific
-                    requirements you provide.
-                  </p>
+                  <h2 className="card-title text-yellow-500">{cardTitle1}</h2>
+                  <p>{cardpara1}</p>
                 </div>
               </div>
               <div className="card bg-zinc-800 text-primary-content max-w-96 max-md:mx-2 pb-40">
                 <div className="card-body">
-                  <h2 className="card-title text-yellow-500">
-                    Thorough Editing{" "}
-                  </h2>
-                  <p>
-                    After reviewing your thesis, our editor refines its
-                    language, improving grammar, syntax, vocabulary, and
-                    addressing any specific requirements. They also check the
-                    structure, verify citations and references, and ensure
-                    compliance with the required style guide.
-                  </p>
+                  <h2 className="card-title text-yellow-500">{cardTitle2}</h2>
+                  <p>{cardpara2}</p>
                 </div>
               </div>
               <div className="card bg-zinc-800 text-primary-content max-w-96 max-md:mx-2 pb-40">
                 <div className="card-body">
-                  <h2 className="card-title text-yellow-500">
-                    Final Editing and Completion
-                  </h2>
-                  <p>
-                    Once our thesis editing and proofreading experts have
-                    addressed all formatting, grammar, and other issues, the
-                    document undergoes a quick recheck for accuracy. It is then
-                    handed back to you for a final review. You can provide any
-                    additional revisions or suggestions, and our team will
-                    ensure all your requests are met.
-                  </p>
+                  <h2 className="card-title text-yellow-500">{cardTitle3}</h2>
+                  <p>{cardpara3}</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="p-2 mb-10 ">
+        <div className="p-2 mt-25 mb-10 bg-gradient-to-b from-yellow-50 to-white">
           <div className="my-10 mb-5 text-center text-black lg:text-6xl text-[2rem] font-bold px-2">
             <h2>
               Reviewed by Satisfied{" "}

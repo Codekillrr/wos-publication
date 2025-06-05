@@ -53,7 +53,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+              className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-lg"
             >
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <div className="custom-inner ">
@@ -228,7 +228,7 @@ const NavBar = () => {
             </svg>
           </div>
           {service && (
-            <div className="w-full h-30 overflow-scroll border-2 border-gray-300 p-2 rounded-lg ">
+            <div className="w-full h-50 shadow-lg bg-gradient-to-b from-yellow-50/50 to white overflow-scroll border-2 border-gray-300 p-2 rounded-lg ">
               <ul>
                 <div className="custom-inner">
                   <li>

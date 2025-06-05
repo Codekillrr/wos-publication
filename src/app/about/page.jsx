@@ -15,8 +15,8 @@ export default function About() {
             <div className="hero-content flex-col lg:flex-row-reverse max-lg:mt-18 max-lg:mb-10">
               <img src="/computer1.png " className="w-lg rounded-lg" />
               <div>
-                <h1 className="text-5xl font-bold text-white">About Us</h1>
-                <p className="py-6 text-white">
+                <h1 className="text-5xl font-bold text-yellow-200">About Us</h1>
+                <p className="py-6 text-yellow-200 font-bold">
                   At WOS Publication, we are a leading provider of research
                   publication and manuscript editing services, assisting
                   researchers from around the world. With years of experience
@@ -27,21 +27,21 @@ export default function About() {
                   positive experience throughout the process. Our commitment to
                   excellence means we never compromise on quality.
                 </p>
-                <button className="btn btn-outline lg:btn-lg btn-info">
+                <button className="btn btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
                   Live Chat
                 </button>
-                <button className="btn ml-4 btn-outline lg:btn-lg btn-info">
+                <button className="btn ml-4 btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
                   Get Started
                 </button>
               </div>
             </div>
           </div>
-          <div className="absolute h-full w-full bg-gradient-to-tr from-black via-black/60 to-black/40 -z-8 left-0 top-0"></div>
+          <div className="absolute h-full w-full bg-gradient-to-tr from-yellow-200/20 via-black/40 to-yellow-200/50 -z-8 left-0 top-0"></div>
           <Image
             src={"/bannerhome.webp"}
             alt=""
             layout="fill"
-            className="absolute object-cover -z-10 opacity-90"
+            className="absolute object-cover -z-10 opacity-60"
           />
         </div>
 
@@ -70,7 +70,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="p-2 mb-10 ">
+        <div className="p-2 mb-10 bg-gradient-to-b from-yellow-50 to-white">
           <div className="my-10 mb-5 text-center text-black lg:text-6xl text-[2rem] font-bold px-2">
             <h2>
               Reviewed by Satisfied{" "}

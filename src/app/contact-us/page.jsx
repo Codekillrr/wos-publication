@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import ContactModal from "@/components/ContactModal";
 
 export default function ContactUs() {
   const patners = [
@@ -33,14 +34,44 @@ export default function ContactUs() {
                   "Reach Out to Us to Get Professional Editing Services and
                   Publication Support"
                 </p>
-                <button className="btn btn-outline lg:btn-lg btn-info">
-                  Schedule Call
-                </button>
+                <ContactModal button={"Schedule a Call"}>
+                  <div className="">
+                    <fieldset className="fieldset shadow-2xl bg-gradient-to-tr from-yellow-200 via-white to bg-yellow-200 border-base-300 rounded-box mx-auto w-xs border p-4">
+                      <legend className="fieldset-legend text-lg opacity-50">
+                        Schedule a call with us
+                      </legend>
+
+                      <label className="label">Email</label>
+                      <input
+                        type="email"
+                        className="input"
+                        placeholder="Email"
+                      />
+
+                      <label className="label">Phone</label>
+                      <input
+                        type="phone"
+                        className="input"
+                        placeholder="phone"
+                      />
+
+                      <button className="btn btn-outline bg-yellow-400 mt-4">
+                        Schedule
+                      </button>
+                    </fieldset>
+                    <div className="modal-action justify-center">
+                      <form method="dialog">
+                        {/* if there is a button in form, it will close the modal */}
+                        <button className="btn">Close</button>
+                      </form>
+                    </div>
+                  </div>
+                </ContactModal>
               </div>
               <img src="/contact.png " className="w-xl rounded-lg" />
             </div>
           </div>
-          <div className="absolute h-full w-full bg-gradient-to-tr from-black via-black/60 to-black/40 -z-8 left-0 top-0"></div>
+          <div className="absolute h-full w-full bg-gradient-to-tr from-yellow-200/50 via-black/40 to-yellow-200/50 -z-8 left-0 top-0"></div>
           <Image
             src={"/bannerhome.webp"}
             alt=""
@@ -65,7 +96,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        <div className="p-2 mb-10 ">
+        <div className="p-2 mb-10 bg-gradient-to-b from-yellow-50 to-white">
           <div className="my-10 mb-5 text-center text-black lg:text-6xl text-[2rem] font-bold px-2">
             <h2>
               Reviewed by Satisfied{" "}
