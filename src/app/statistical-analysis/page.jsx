@@ -2,7 +2,7 @@ import React from "react";
 import ServicePage from "@/components/ServicePage";
 
 export default function Service() {
-  const Service = "Statistical Analysis";
+  const Service = "";
   const titleW = "";
   const titleY = "";
   const para1 = "";
