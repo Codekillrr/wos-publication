@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import NavBar from "@/components/NavBar";
-import SpinningCard from "@/components/SpinningCard";
+
 import IconCardSection from "@/components/IconCardSection";
 import DotCard from "@/components/DotCard";
 import Request from "@/components/Request";
@@ -92,6 +92,7 @@ export default function Home() {
 
           <SpinningCardSection />
         </div>
+
         <IconCardSection />
 
         <div className="my-15 mx-2">

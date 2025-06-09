@@ -12,9 +12,9 @@ const NavBar = () => {
   console.log(menu);
   return (
     <nav className="py-2 fixed bg-white w-full z-10 shadow-lg">
-      <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-10 px-5">
+      <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-17 px-5">
         <Link href={"/"} className="flex flex-row items-center cursor-pointer">
-          <Image src={"/logo.png"} alt="logo" width={80} height={80} />
+          <Image src={"/logo.png"} alt="logo" width={70} height={70} />
           <span className="flex flex-col space-x-0">
             <div className="font-bold text-yellow-600 text-[1.2rem]"> WOS</div>
             <div className="text-yellow-600">Publications</div>
@@ -203,7 +203,7 @@ const NavBar = () => {
         </div>
       </div>
       {menu && (
-        <div className="mx-1 border-b-[1px] border-gray-300 ">
+        <div className="mx-1 lg:hidden border-b-[1px] border-gray-300 ">
           <div className="p-2">
             <Link href={"/"}>HOME</Link>
           </div>
