@@ -34,39 +34,14 @@ export default function ContactUs() {
                   "Reach Out to Us to Get Professional Editing Services and
                   Publication Support"
                 </p>
-                <ContactModal button={"Schedule a Call"}>
-                  <div className="">
-                    <fieldset className="fieldset shadow-2xl bg-gradient-to-tr from-yellow-200 via-white to bg-yellow-200 border-base-300 rounded-box mx-auto w-xs border p-4">
-                      <legend className="fieldset-legend text-lg opacity-50">
-                        Schedule a call with us
-                      </legend>
-
-                      <label className="label">Email</label>
-                      <input
-                        type="email"
-                        className="input"
-                        placeholder="Email"
-                      />
-
-                      <label className="label">Phone</label>
-                      <input
-                        type="phone"
-                        className="input"
-                        placeholder="phone"
-                      />
-
-                      <button className="btn btn-outline bg-yellow-400 mt-4">
-                        Schedule
-                      </button>
-                    </fieldset>
-                    <div className="modal-action justify-center">
-                      <form method="dialog">
-                        {/* if there is a button in form, it will close the modal */}
-                        <button className="btn">Close</button>
-                      </form>
-                    </div>
-                  </div>
-                </ContactModal>
+                <a
+                  href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline btn-warning"
+                >
+                  Get in Touch Now
+                </a>
               </div>
               <img src="/contact.png " className="w-xl rounded-lg" />
             </div>

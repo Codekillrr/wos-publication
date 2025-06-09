@@ -13,13 +13,13 @@ const NavBar = () => {
   return (
     <nav className="py-2 fixed bg-white w-full z-10 shadow-lg">
       <div className="flex max-lg:justify-between lg:justify-between items-center lg:pl-10 pr-3 ">
-        <span className="flex flex-row items-center">
+        <Link href={"/"} className="flex flex-row items-center cursor-pointer">
           <Image src={"/logo.png"} alt="logo" width={80} height={80} />
           <span className="flex flex-col space-x-0">
             <div className="font-bold text-yellow-600 text-[1.2rem]"> WOS</div>
             <div className="text-yellow-600">Publications</div>
           </span>
-        </span>
+        </Link>
         <div className="flex flex-row space-x-15 items-center pl-15 pr-5 max-lg:hidden">
           <Link className="text-md btn bg-white border-0" href="/">
             HOME

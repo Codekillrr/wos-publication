@@ -53,9 +53,12 @@ const IconCardSection = () => {
       </h1>
       <div className="lg:grid lg:grid-flow-col lg:grid-rows-2 lg:px-60">
         {items.map((item) => (
-          // <div> //if need to place key
-          // </div>
-          <IconCard Icon={item.icon} Title={item.title} Para={item.para} />
+          <IconCard
+            key={item.id}
+            Icon={item.icon}
+            Title={item.title}
+            Para={item.para}
+          />
         ))}
       </div>
     </div>

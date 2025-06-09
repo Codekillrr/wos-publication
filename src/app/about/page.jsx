@@ -27,7 +27,7 @@ export default function About() {
                   positive experience throughout the process. Our commitment to
                   excellence means we never compromise on quality.
                 </p>
-                <button className="btn btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
+                <button className="btn btn-outline lg:btn-lg btn-warning">
                   Live Chat
                 </button>
                 <button className="btn ml-4 btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
@@ -36,7 +36,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="absolute h-full w-full bg-gradient-to-tr from-yellow-200/20 via-black/40 to-yellow-200/50 -z-8 left-0 top-0"></div>
+          <div className="absolute h-full w-full bg-gradient-to-tr from-yellow-500/20 via-black/40 to-yellow-200/50 -z-8 left-0 top-0"></div>
           <Image
             src={"/bannerhome.webp"}
             alt=""
@@ -63,7 +63,7 @@ export default function About() {
                 services to academic, publishing, and pharmaceutical
                 communities, ensuring top-quality results every time.
               </p>
-              <button className="btn btn-outline lg:btn-xl btn-primary">
+              <button className="btn btn-outline lg:btn-xl btn-warning">
                 Get Started
               </button>
             </div>
