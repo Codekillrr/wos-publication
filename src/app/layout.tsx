@@ -15,6 +15,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Wos Publications",
   description: "Professional editing and research publication services.",
+  icons: {
+    icon: [
+      "/favicon.ico?v=4",
+      "/favicon-16x16.png?v=4",
+      "/favicon-32x32.png?v=4",
+    ],
+    apple: ["/apple-touch-icon.png?v=4"],
+    other: [
+      {
+        rel: "icon",
+        url: "/android-chrome-192x192.png?v=4",
+      },
+      {
+        rel: "icon",
+        url: "/android-chrome-512x512.png?v=4",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest?v=4",
 };
 
 export default function RootLayout({
