@@ -12,7 +12,7 @@ const NavBar = () => {
   console.log(menu);
   return (
     <nav className="py-2 fixed bg-white w-full z-10 shadow-lg">
-      <div className="flex max-lg:justify-between lg:justify-between items-center lg:pl-10 pr-3 ">
+      <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-10 px-5">
         <Link href={"/"} className="flex flex-row items-center cursor-pointer">
           <Image src={"/logo.png"} alt="logo" width={80} height={80} />
           <span className="flex flex-col space-x-0">
@@ -162,8 +162,8 @@ const NavBar = () => {
             CONTACT US
           </Link>
         </div>
-        <div className="w-120 flex flex-row justify-evenly">
-          <div className="w-[35%] max-xl:hidden px-autotext-center text-md text-center">
+        <div className="w-auto flex flex-row justify-center gap-10">
+          <div className=" max-xl:hidden px-autotext-center text-md text-center">
             <span className="text-yellow-700">Call Us Now</span>
             <br />
             <span className="text-zinc-600 w-full">+44 7724 695183</span>

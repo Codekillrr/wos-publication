@@ -50,7 +50,7 @@ const AccordionCard = () => {
     <Accordion.Root
       className="AccordionRoot rounded-lg border w-auto mx-4 overflow-hidden border-gray-300 shadow-2xl"
       type="single"
-      defaultValue=""
+      defaultValue={1}
       collapsible
     >
       {items.map((item) => (
