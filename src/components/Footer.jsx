@@ -32,13 +32,13 @@ const Footer = () => {
           +44 7724 695183
         </a>
         <a href="mailto:contact@wospublication.com" className="link link-hover">
-          contact@wospublication.com
+          contact@wospublications.co.uk
         </a>
         <a href="mailto:info@wospublication.com" className="link link-hover">
-          info@wospublication.com
+          info@wospublication.co.uk
         </a>
         <a href="mailto:help@wospublication.com" className="link link-hover">
-          help@wospublication.com
+          help@wospublication.co.uk
         </a>
       </nav>
       <nav className="text-white">
