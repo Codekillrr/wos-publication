@@ -45,6 +45,22 @@ const organizationSchema = {
   logo: "https://www.wospublications.co.uk/logo.png",
   image: "https://www.wospublications.co.uk/logo.png",
   sameAs: ["https://www.facebook.com/wospublications"],
+
+  // Additional SEO enhancements:
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    email: "contact@wospublications.co.uk", // Support email
+    url: "https://www.wospublications.co.uk/contact",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "GB", // Country
+    addressRegion: "England", // City
+  },
+  foundingDate: "2020", // Founding year
+  keywords:
+    "academic editing, research publication, manuscript editing, publication services",
 };
 
 export default function RootLayout({
