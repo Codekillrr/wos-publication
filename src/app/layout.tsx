@@ -36,6 +36,17 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest?v=4",
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Wos Publications",
+  description: "Professional editing and research publication services",
+  url: "https://www.wospublications.co.uk",
+  logo: "https://www.wospublications.co.uk/logo.png",
+  image: "https://www.wospublications.co.uk/logo.png",
+  sameAs: ["https://www.facebook.com/wospublications"],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -43,6 +54,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
