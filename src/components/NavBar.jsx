@@ -20,8 +20,8 @@ const NavBar = () => {
             <div className="text-yellow-600">Publications</div>
           </span>
         </Link>
-        <div className="flex flex-row space-x-15 items-center pl-15 pr-5 max-lg:hidden">
-          <Link className="text-md btn bg-white border-0" href="/">
+        <div className="flex flex-row space-x-20 items-center  max-lg:hidden">
+          <Link className="text-md btn  bg-white border-0" href="/">
             HOME
           </Link>
           <Link className="text-md btn bg-white border-0" href="/about">
@@ -163,11 +163,14 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="w-auto flex flex-row justify-center gap-10">
-          <div className=" max-xl:hidden px-autotext-center text-md text-center">
+          <a
+            href="tel:+447724695183"
+            className=" max-xl:hidden px-autotext-center text-md text-center cursor-pointer"
+          >
             <span className="text-yellow-700">Call Us Now</span>
             <br />
             <span className="text-zinc-600 w-full">+44 7724 695183</span>
-          </div>
+          </a>
           <button className="w-30 max-lg:hidden btn ring-3 hover:bg-gradient-to-t from-yellow-300/60 to-transparent text-yellow-800 font-bold ring-yellow-300 p-2 rounded-lg">
             <a
               target="_blank"
@@ -335,12 +338,12 @@ const NavBar = () => {
             <Link href={"/contact-us"}>CONTACT US</Link>
           </div>
           <div className="flex flex-row justify-between p-3 mt-1">
-            <span>
+            <a href="tel:+447724695183" className="cursor-pointer">
               <div className="text-yellow-600 font-bold text-center">
                 Call Us Now
               </div>
               <div className="text-yellow-500">+44 (161) 791-3367</div>
-            </span>
+            </a>
             <button className="text-[0.9rem] font-bold text-yellow-500 p-2 border-2 border-yellow-300 rounded-lg">
               <a
                 target="_blank"
