@@ -2,6 +2,7 @@ import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import MeetTeam from "@/components/MeetTeam";
 
 export default function About() {
   return (
@@ -44,6 +45,8 @@ export default function About() {
             className="absolute object-cover -z-10 opacity-60"
           />
         </div>
+
+        <MeetTeam />
 
         <div className="hero bg-base-200 min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
