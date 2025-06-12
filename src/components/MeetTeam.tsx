@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button-scn";
+// import { Button } from "@/components/ui/button-scn";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 interface TeamMember {
   id: number;
@@ -16,7 +17,7 @@ const teamMembers: TeamMember[] = [
     role: "CEO & Founder",
     description:
       "Sarah brings over 15 years of experience in technology and business development. She founded our company with a vision to revolutionize how teams collaborate and innovate. Her leadership style focuses on empowering individuals to reach their full potential while driving sustainable growth.",
-    image: "logo.png",
+    image: "/logo.png",
   },
   {
     id: 2,
@@ -24,7 +25,7 @@ const teamMembers: TeamMember[] = [
     role: "CTO",
     description:
       "Michael is a technology visionary with expertise in scalable systems and innovative solutions. He leads our engineering team with a focus on cutting-edge development practices and emerging technologies. His passion for clean code and system architecture drives our technical excellence.",
-    image: "logo.png",
+    image: "/logo.png",
   },
   {
     id: 3,
@@ -32,7 +33,7 @@ const teamMembers: TeamMember[] = [
     role: "Head of Design",
     description:
       "Emily crafts beautiful and intuitive user experiences that delight our customers. With a background in psychology and design, she understands how to create interfaces that are both aesthetically pleasing and functionally superior. Her work has been recognized with multiple design awards.",
-    image: "logo.png",
+    image: "/logo.png",
   },
   {
     id: 4,
@@ -40,7 +41,7 @@ const teamMembers: TeamMember[] = [
     role: "VP of Operations",
     description:
       "David ensures our operations run smoothly and efficiently. His analytical mindset and process optimization skills have helped us scale rapidly while maintaining quality. He believes in data-driven decisions and continuous improvement across all aspects of our business.",
-    image: "logo.png",
+    image: "/logo.png",
   },
 ];
 
@@ -67,7 +68,7 @@ const MeetTeam = () => {
           Meet Our Team
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mb-15">
-          We're a passionate group of innovators, creators, and problem-solvers
+          We are a passionate group of innovators, creators, and problem-solvers
           dedicated to building exceptional experiences and driving meaningful
           change.
         </p>
@@ -88,9 +89,11 @@ const MeetTeam = () => {
                   <div className="flex-shrink-0">
                     <div className="relative group">
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-200/20 to-yellow-300/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 scale-110"></div>
-                      <img
+                      <Image
                         src={member.image}
                         alt={member.name}
+                        width={256}
+                        height={256}
                         className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl ring-2 ring-yellow-200 group-hover:ring-yellow-400"
                       />
                       <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-yellow-500/10 via-transparent to-yellow-300/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
