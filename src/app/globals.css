@@ -150,7 +150,8 @@ a {
 }
 
 .custom-inner {
-  padding: auto;
+  margin-bottom: 0.4rem;
+  height: auto;
 }
 /* .swiper {
   padding: 0 50px 50px 50px;
