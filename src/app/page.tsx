@@ -4,7 +4,6 @@ import Link from "next/link";
 import NavBar from "@/components/NavBar";
 
 import IconCardSection from "@/components/IconCardSection";
-import DotCard from "@/components/DotCard";
 import Request from "@/components/Request";
 import AccordianCard from "@/components/AccordianCard";
 import Testimonials from "@/components/Testimonials";
