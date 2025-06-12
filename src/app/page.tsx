@@ -12,6 +12,7 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import SpinningCardSection from "@/components/SpinningCardSection";
 import PopSide from "@/components/ui/PopSide";
+import DotCardSection from "@/components/DotCardSection";
 
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
@@ -97,36 +98,8 @@ export default function Home() {
 
         <IconCardSection />
 
-        <div className="my-15 mx-2">
-          <h1 className="text-4xl lg:text-6xl lg:px-40 text-center font-bold mb-5">
-            We offer{" "}
-            <span className="text-yellow-500">journal publication </span>and
-            expert editing for{" "}
-            <span className="text-yellow-500">major subjects.</span>
-          </h1>
-          <div className="lg:grid lg:grid-flow-col lg:grid-rows-1 lg:px-25">
-            <DotCard
-              Title={"Medical Science"}
-              Para={"200+ Subjects, 800+ Experts, 470K+ Papers"}
-            />
-            <DotCard
-              Title={"Medical Science"}
-              Para={"200+ Subjects, 800+ Experts, 470K+ Papers"}
-            />
-            <DotCard
-              Title={"Medical Science"}
-              Para={"200+ Subjects, 800+ Experts, 470K+ Papers"}
-            />
-            <DotCard
-              Title={"Medical Science"}
-              Para={"200+ Subjects, 800+ Experts, 470K+ Papers"}
-            />
-            <DotCard
-              Title={"Medical Science"}
-              Para={"200+ Subjects, 800+ Experts, 470K+ Papers"}
-            />
-          </div>
-        </div>
+        <DotCardSection />
+
         <div className="bg-amber-200/90 py-1 lg:h-110">
           <div className="my-10 mb-5 text-center text-black lg:text-5xl text-[2rem] font-bold px-2">
             WOS Publication: Your Partner in Turning
