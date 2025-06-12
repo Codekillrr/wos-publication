@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import SpinningCardSection from "@/components/SpinningCardSection";
+import PopSide from "@/components/ui/PopSide";
 
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
@@ -34,6 +35,7 @@ export default function Home() {
         <NavBar />
       </header>
       <main className="">
+        <PopSide />
         <div className="relative h-auto w-full lg:h-180">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="my-10 mt-35 text-center text-white text-[2rem] lg:text-6xl lg:px-30 font-bold px-2">

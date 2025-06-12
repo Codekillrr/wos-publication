@@ -11,16 +11,19 @@ const NavBar = () => {
 
   console.log(menu);
   return (
-    <nav className="py-2 fixed bg-white w-full z-10 shadow-lg">
-      <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-17 px-5">
-        <Link href={"/"} className="flex flex-row items-center cursor-pointer">
+    <nav className="py-1 fixed bg-white w-full z-10 shadow-lg">
+      <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-15 px-5">
+        <Link
+          href={"/"}
+          className="flex flex-row items-center cursor-pointer pr-[4%]"
+        >
           <Image src={"/logo.png"} alt="logo" width={70} height={70} />
           <span className="flex flex-col space-x-0">
             <div className="font-bold text-yellow-600 text-[1.2rem]"> WOS</div>
             <div className="text-yellow-600">Publications</div>
           </span>
         </Link>
-        <div className="flex flex-row space-x-20 items-center  max-lg:hidden">
+        <div className="flex flex-row space-x-10 2xl:space-x-20  items-center  max-[1200px]:hidden">
           <Link className="text-md btn  bg-white border-0" href="/">
             HOME
           </Link>
@@ -162,7 +165,7 @@ const NavBar = () => {
             CONTACT US
           </Link>
         </div>
-        <div className="w-auto flex flex-row justify-center gap-10">
+        <div className="w-auto flex flex-row justify-center gap-4 2xl:gap-10 max-[1200px]:hidden">
           <a
             href="tel:+447724695183"
             className=" max-xl:hidden px-autotext-center text-md text-center cursor-pointer"
@@ -184,7 +187,7 @@ const NavBar = () => {
 
         <div
           onClick={() => setMenu((prev) => !prev)}
-          className="flex lg:hidden justify-center items-center p-2 h-11 py-1 w-15 border border-yellow-300 rounded-lg"
+          className="flex min-[1200px]:hidden justify-center items-center p-2 h-11 py-1 w-15 border border-yellow-300 rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +206,7 @@ const NavBar = () => {
         </div>
       </div>
       {menu && (
-        <div className="mx-1 lg:hidden border-b-[1px] border-gray-300 ">
+        <div className="mx-1 [1200px]:hidden lg:px-16 px-5 border-b-[1px] border-gray-300 ">
           <div className="p-2">
             <Link href={"/"}>HOME</Link>
           </div>
