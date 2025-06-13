@@ -8,16 +8,23 @@ const NavBar = () => {
   return (
     <nav className="py-1 fixed bg-white w-full z-10 shadow-lg ">
       <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-15 px-5">
-        <Link
-          href={"/"}
-          className="flex flex-row items-center cursor-pointer pr-[4%]"
-        >
-          <Image src={"/logo.png"} alt="logo" width={70} height={70} />
-          <span className="flex flex-col space-x-0">
-            <div className="font-bold text-yellow-600 text-[1.2rem]"> WOS</div>
-            <div className="text-yellow-600">Publications</div>
-          </span>
-        </Link>
+        <div className=" pr-[4%]">
+          <Link
+            href={"/"}
+            className="flex flex-row items-center cursor-pointer relative group"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-200/20 to-yellow-300/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 scale-110"></div>
+            <Image src={"/logo.png"} alt="logo" width={70} height={70} />
+            <span className="flex flex-col space-x-0">
+              <div className="font-bold text-yellow-600 text-[1.2rem]">
+                {" "}
+                WOS
+              </div>
+              <div className="text-yellow-600">Publications</div>
+            </span>
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-yellow-500/10 via-transparent to-yellow-300/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+          </Link>
+        </div>
         <div className="flex flex-row space-x-10 2xl:space-x-20  items-center  max-[1200px]:hidden">
           <Link className="text-md btn  bg-white border-0" href="/">
             HOME

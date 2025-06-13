@@ -13,11 +13,31 @@ export default function About() {
       <main className="">
         <div className="relative h-auto w-full lg:h-180">
           <div className="hero min-h-full bg-transparent ">
-            <div className="hero-content flex-col lg:flex-row-reverse max-lg:mt-18 max-lg:mb-10">
-              <img src="/computer1.png " className="w-lg rounded-lg" />
+            <div className="hero-content flex-col lg:flex-row-reverse gap-x-20 max-lg:mt-25 max-lg:mb-10">
+              {/* <Image
+                width={500}
+                height={500}
+                src="/logo.png"
+                className="w-lg rounded-lg"
+              /> */}
+              <div className="flex-shrink-0">
+                <div className="relative group">
+                  <div className="absolute inset-0 bg-gradient-to-r from-yellow-200/20 to-yellow-300/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 scale-110"></div>
+                  <Image
+                    src={"/logo.png"}
+                    alt={"logo"}
+                    width={500}
+                    height={500}
+                    className="relative w-80 h-80 md:w-110 md:h-110 object-cover rounded-2xl shadow-xl transition-all duration-500 group-hover:shadow-2xl ring-2 ring-yellow-200 group-hover:ring-yellow-400"
+                  />
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-yellow-500/10 via-transparent to-yellow-300/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                </div>
+              </div>
               <div>
-                <h1 className="text-5xl font-bold text-yellow-200">About Us</h1>
-                <p className="py-6 text-yellow-200 font-bold">
+                <h1 className="text-5xl font-bold text-yellow-200 mt-5 md:text-left text-center">
+                  About Us
+                </h1>
+                <p className="py-6 text-yellow-200 font-bold md:text-left text-center">
                   At WOS Publication, we are a leading provider of research
                   publication and manuscript editing services, assisting
                   researchers from around the world. With years of experience
@@ -28,12 +48,14 @@ export default function About() {
                   positive experience throughout the process. Our commitment to
                   excellence means we never compromise on quality.
                 </p>
-                <button className="btn btn-outline lg:btn-lg btn-warning">
-                  Live Chat
-                </button>
-                <button className="btn ml-4 btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
-                  Get Started
-                </button>
+                <div className="flex justify-center items-center md:justify-start">
+                  <button className="btn btn-outline lg:btn-lg btn-warning">
+                    Live Chat
+                  </button>
+                  <button className="btn ml-4 btn-outline hover:bg-gradient-to-b from-yellow-50 to-white text-yellow-100 hover:text-black border-yellow-300 lg:btn-lg btn-info">
+                    Get Started
+                  </button>
+                </div>
               </div>
             </div>
           </div>

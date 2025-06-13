@@ -15,7 +15,7 @@ const PopSide = () => {
       href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex justify-center items-center gap-5 bg-green-300 p-2.5 z-20 px-5 pr-10 rounded-2xl fixed -right-49 top-[40%] shadow-black/40 shadow-lg ring-green-700 ring-1 max-[1200px]:hidden"
+      className="flex justify-center items-center gap-5 bg-green-400 p-2.5 z-20 px-5 pr-10 rounded-2xl fixed -right-49 top-[40%] shadow-black/40 shadow-lg ring-green-700 ring-1 max-[1200px]:hidden"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
