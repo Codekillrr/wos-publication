@@ -3,7 +3,8 @@ import NavBar from "@/components/NavBar";
 import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
-import ContactModal from "@/components/ContactModal";
+// import ContactModal from "@/components/ContactModal";
+import PopSide from "@/components/ui/PopSide";
 
 export default function ContactUs() {
   const patners = [
@@ -25,6 +26,7 @@ export default function ContactUs() {
         <NavBar />
       </header>
       <main className="">
+        <PopSide />
         <div className="relative h-auto w-full lg:h-180 flex lg:pl-25">
           <div className="hero min-h-full bg-transparent max-lg:mt-25">
             <div className="hero-content flex-col lg:flex-row">

@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Subjects from "@/components/Subjects";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import PopSide from "@/components/ui/PopSide";
 
 const ServicePage = ({
   Service,
@@ -28,6 +29,7 @@ const ServicePage = ({
       </header>
 
       <main>
+        <PopSide />
         <div
           className="hero min-h-120 bg-gradient-to-tr from-yellow-600 via-black to-yellow-600"
           // style={{

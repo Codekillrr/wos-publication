@@ -21,6 +21,16 @@ const Footer = () => {
       </aside>
 
       <nav className="text-white">
+        <h6 className="footer-title opacity-100 text-yellow-200">Legal</h6>
+        <a className="link link-hover" href="/terms-condition/">
+          Terms & Conditions
+        </a>
+        <a className="link link-hover" href="/privacy-policy/">
+          Privacy Policy
+        </a>
+      </nav>
+
+      <nav className="text-white">
         <h6 className="footer-title opacity-100 text-yellow-200">Services</h6>
         <a className="link link-hover" href="/thesis-editing/">
           Thesis Editing

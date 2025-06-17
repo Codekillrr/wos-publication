@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import MeetTeam from "@/components/MeetTeam";
+import PopSide from "@/components/ui/PopSide";
 
 export default function About() {
   return (
@@ -11,6 +12,7 @@ export default function About() {
         <NavBar />
       </header>
       <main className="">
+        <PopSide />
         <div className="relative h-auto w-full lg:h-180">
           <div className="hero min-h-full bg-transparent ">
             <div className="hero-content flex-col lg:flex-row-reverse gap-x-20 max-lg:mt-25 max-lg:mb-10">
