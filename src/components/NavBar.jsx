@@ -6,7 +6,7 @@ import MobileMenu from "@/components/MobileMenu";
 
 const NavBar = () => {
   return (
-    <nav className="py-1 fixed bg-white w-full z-10 shadow-lg ">
+    <nav className="py-1 fixed bg-white w-full z-10 shadow-lg top-0">
       <div className="flex max-lg:justify-between lg:justify-between items-center lg:px-15 px-5">
         <div className=" pr-[4%]">
           <Link

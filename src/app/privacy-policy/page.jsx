@@ -12,23 +12,23 @@ export default function TermsAndConditions() {
       </header>
       <main className="">
         <PopSide />
-        <div className="py-40 mx-50">
+        <div className="py-40 lg:mx-50 sm:mx-20 m-6">
           <h1 className="text-5xl font-bold text-yellow-300 py-4">
             {" "}
             Privacy Policy
           </h1>
           <p>
-            Your privacy is important to us, and the WOS Publication (“ WOS
-            Publication,” “the Company,” “we,” “our,” or “us”) is committed to
+            Your privacy is important to us, and the WOS Publications (“ WOS
+            Publications,” “the Company,” “we,” “our,” or “us”) is committed to
             protecting your privacy whilst providing a personalized and valuable
-            service. Here at Clarivate Publication, we are committed to
-            safeguarding your data while rendering our professional services.
-            This Privacy Policy governs our data collection, processing, and
-            usage practices. It is designed to allow the Data Subject (“you”) to
-            make an informed choice regarding use, access, and correction of
-            your Personal Information. If you have any requests concerning your
-            Personal Information or any queries about these practices, please
-            contact us by e-mail on help@wospublications.co.uk
+            service. Here at WOS Publications, we are committed to safeguarding
+            your data while rendering our professional services. This Privacy
+            Policy governs our data collection, processing, and usage practices.
+            It is designed to allow the Data Subject (“you”) to make an informed
+            choice regarding use, access, and correction of your Personal
+            Information. If you have any requests concerning your Personal
+            Information or any queries about these practices, please contact us
+            by e-mail on help@wospublications.co.uk
           </p>
           <div className="py-4">
             <h4 className="text-2xl py-2">1. Personal Data That We Collect</h4>
@@ -77,7 +77,7 @@ export default function TermsAndConditions() {
                 share your Personal Information with these third parties,
                 contact us at{" "}
                 <a
-                  href="mailto:help@wospublication.com"
+                  href="mailto:help@wospublications.co.uk"
                   className="link link-hover text-blue-600"
                 >
                   help@wospublications.co.uk
@@ -104,18 +104,17 @@ export default function TermsAndConditions() {
               </p>
               <p>
                 To ensure that the security and integrity of the Site is
-                safeguarded, Clarivate Publication may monitor your Personal
-                Information. Clarivate Publication may under certain
-                circumstances engage a trusted third-party Service Provider for
-                the purpose of managing the technical operations involved in
-                hosting the Site. Information you submit to us via the contact
-                form on our Website will be stored outside the European Economic
-                Area on our third-party hosting provider’s servers. To the
-                extent that it may be necessary, and solely for the purposes of
-                providing the service available on the Site to you, we may
-                disclose to such third party any of your Personal Information
-                that may be necessary for the procurement of services from the
-                third party.
+                safeguarded, WOS publications may monitor your Personal
+                Information. WOS publications may under certain circumstances
+                engage a trusted third-party Service Provider for the purpose of
+                managing the technical operations involved in hosting the Site.
+                Information you submit to us via the contact form on our Website
+                will be stored outside the European Economic Area on our
+                third-party hosting provider’s servers. To the extent that it
+                may be necessary, and solely for the purposes of providing the
+                service available on the Site to you, we may disclose to such
+                third party any of your Personal Information that may be
+                necessary for the procurement of services from the third party.
               </p>
             </div>
             <h5 className="text-xl">As Data Processor:</h5>
@@ -164,7 +163,7 @@ export default function TermsAndConditions() {
               3. Children’s Personal Information
             </h4>
             <p>
-              Clarivate Publication does not knowingly collect any Personal
+              WOS publications does not knowingly collect any Personal
               Information from children under the age of 18. If you are under
               the age of 18, please do not submit any Personal Information
               through our Websites or Service(s). We encourage parents and legal
@@ -175,7 +174,7 @@ export default function TermsAndConditions() {
               the age of 18 has provided Personal Information to us through our
               Websites or Service(s), please contact us at{" "}
               <a
-                href="mailto:help@wospublication.com"
+                href="mailto:help@wospublications.co.uk"
                 className="link link-hover text-blue-600"
               >
                 help@wospublications.co.uk
@@ -188,7 +187,7 @@ export default function TermsAndConditions() {
             <h4 className="text-2xl py-2">
               4. Retention of Personal Information
             </h4>
-            <p>
+            <div>
               We retain Personal Information that you provide us as long as an
               Account is active or as needed to provide the Service(s) or as
               necessary to comply with our legal obligations, maintain accurate
@@ -196,7 +195,7 @@ export default function TermsAndConditions() {
               agreements. If you wish to terminate your Account or request that
               we no longer use Your Personal Information, please contact us at{" "}
               <a
-                href="mailto:help@wospublication.com"
+                href="mailto:help@wospublications.co.uk"
                 className="link link-hover text-blue-600"
               >
                 help@wospublications.co.uk
@@ -208,8 +207,8 @@ export default function TermsAndConditions() {
               </p>
               In any other circumstances, we will retain your information for no
               longer than necessary, taking into account the following:
-            </p>
-            <ul className="list-disc p-2 px-5">
+            </div>
+            <ul className="list-disc p-2 px-5 space-y-1">
               <li>
                 the purpose(s) and use of your information both now and in the
                 future (such as whether it is necessary to continue to store
@@ -245,6 +244,288 @@ export default function TermsAndConditions() {
                 status of our relationship with you)
               </li>
             </ul>
+          </div>
+
+          <div className="py-4">
+            <h4 className="text-2xl py-2">
+              5. Use of Cookies & Similar Technologies
+            </h4>
+            <p>
+              Cookies are data files that are sent from a website to a browser
+              to record information about users for various purposes. We use
+              cookies, including essential, functional, and analytical cookies.
+              You can reject some or all of the cookies we use on or via our
+              Website by changing your browser settings, but doing so can impair
+              your ability to use our Website or some or all of its features.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">6. Social Media Features</h4>
+            <p>
+              Some of our Websites, include social media features, such as
+              Facebook, LinkedIn, Twitter, with the “Share This” button, or
+              interactive mini-programs. Where we have your consent, these
+              features may collect your IP address and which page you are vting
+              on our Websites, and may set a cookie to enable the feature to
+              function properly. Social media features and widgets are either
+              hosted by a third party or hosted directly on our Websites. Your
+              interactions with these features are governed by the privacy
+              policy of the company providing them.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">
+              7. Security of Your Personal Information
+            </h4>
+            <p>
+              WOS publications has put in place the following security practices
+              and procedures to protect your Personal Information from
+              unauthorized access, use, or disclosure:
+            </p>
+            <ul className="list-disc p-2 px-5 space-y-1">
+              <li>
+                a) We secure the Personal Information you provide on computer
+                servers in a controlled, secure environment, protected from
+                unauthorized access, use, or disclosure
+              </li>
+              <li>
+                b) All our employees and Service Providers have signed
+                confidentiality agreements where they have undertaken that they
+                will not make any Personal Information available to anyone,
+                unless authorized in writing by the user.
+              </li>
+              <li>
+                c) Personal Information will not be made available to any third
+                party, except as provided herein or by obtaining your prior
+                written consent.
+              </li>
+              <li>
+                d) All documents submitted are managed through a secure online
+                job management system; the documents that are sent to us can
+                only be viewed by service professionals working on your
+                assignment.
+              </li>
+              <li>e) Payment-related Personal Information:</li>
+              <li>
+                I. The Site uses Secure Socket Layer (SSL) encryption when
+                accepting payment related Personal Information, to ensure that
+                your payment-related Personal Information is secure.
+              </li>
+              <li>
+                II. In order to protect your credit card information, all online
+                transactions are conducted using a secure 256-bit SSL encryption
+                signed by Vergn. Encryption ensures that no information is
+                accessible to unknown parties. WOS publications hereby
+                undertakes not to store your credit card information, thereby
+                reducing the possibility of fraudulent charges being made by WOS
+                publications
+              </li>
+            </ul>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">8. Hyperlinks</h4>
+            <p>
+              Endorsement or validation by us of the content of the said
+              websites. We are not responsible for the privacy practices nor do
+              we accept any liability about the content of such websites
+              including those of our group companies that have their own privacy
+              policies tailored for the business practices and sectors in which
+              they operate.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">9. Testimonials & Public Forums</h4>
+            <ul className="list-disc pt-2 px-5 space-y-1">
+              <li>
+                We post on our Websites customer testimonials/comments/reviews
+                that may contain Personal Information. Prior to posting the
+                testimonial, we obtain the customer’s consent to post their name
+                along with their testimonial. If you want your testimonial
+                removed, please contact us at{" "}
+                <a
+                  href="mailto:help@wospublications.co.uk"
+                  className="link link-hover text-blue-600"
+                >
+                  help@wospublications.co.uk
+                </a>
+                .
+              </li>
+              <li>
+                Our Websites offer publicly accessible blogs, community forums,
+                or discussion board posts. You should be aware that any
+                information you provide in these areas may be read, collected,
+                and used by others who access them. You agree and acknowledge
+                that the use of such information is not confidential, does not
+                constitute Personal Information, and is not subject to
+                protection under WOS publications’ Privacy Policy.
+              </li>
+            </ul>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">10. Corporate Events</h4>
+            <p>
+              In the event WOS publications goes through a business transition,
+              such as a merger or acqution by another company, or sale of all or
+              a portion of its assets, your user account and personal data will
+              likely be among the assets transferred. You will be notified via a
+              prominent notice of any such change in ownership or control.
+              During such event, we may also disclose your Personal Information
+              to any other third party with your prior consent.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">11. Responsibility with You</h4>
+            <p>
+              When you submit any Personal Information to us, you represent that
+              you have the lawful right to submit the Personal Information and
+              agree that you will not submit any information unless you are
+              legally entitled to do so and that such Personal Information is
+              true, complete, and accurate. You may not use a false email
+              address or other identifying information to impersonate any person
+              or entity, or otherwise mislead as to the origin of any content.
+              Any improper collection or misuse of Personal Information is in
+              violation of this Privacy Policy and of the applicable terms and
+              conditions of use. You agree not to misuse any Personal
+              Information available on our Site or to gather it or use robots or
+              other automated scripts, codes, or functionalities to do so. We
+              may immediately suspend or terminate your access to our Site
+              without notice if we become aware that you are in breach of
+              applicable terms and conditions of use or of this Privacy Policy.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">12. Opting Out and Unsubscribing</h4>
+            <ul className="list-disc pt-2 px-5 space-y-1.5">
+              <li>
+                Reviewing, Correcting, and Deletion of Your Personal Information
+                Upon request, journal Consultancy will provide you with
+                information about whether we hold any of your Personal
+                Information. We allow users of the Service(s) or Website to
+                access, update, or modify their information by clicking on the
+                My Account link in the WOS publications navigation menu. If you
+                provide us with your Personal Information, you have the
+                following rights with respect to that information:
+                <ul className="list-decimal pl-10 py-1">
+                  <li>
+                    To review the user information that you have supplied to us
+                  </li>
+                  <li>
+                    To request that we correct any errors, outdated information,
+                    or omissions in user information that you have supplied to
+                    us
+                  </li>
+                  <li>
+                    To request that your user information not be used to contact
+                    you
+                  </li>
+                  <li>
+                    To request that your user information be deleted from our
+                    records
+                  </li>
+                  <li>
+                    To withdraw your consent to our use of your information;
+                    please note that if you withdraw your consent, this will not
+                    affect the lawfulness of our use and processing of your
+                    information on the basis of your consent before the point in
+                    time when you withdraw your consent
+                  </li>
+                </ul>
+                To exercise any of these rights and requests, please contact us
+                at{" "}
+                <a
+                  href="mailto:help@wospublications.co.uk"
+                  className="link link-hover text-blue-600"
+                >
+                  help@wospublications.co.uk
+                </a>
+                . We will respond to your request within reasonable timeframe
+                and notify you of the action we have taken.
+              </li>
+              <li>
+                To Unsubscribe from Our Communications Your registered email
+                address will be automatically subscribed to our weekly
+                newsletter, which will contain information on industry updates,
+                author resources, upcoming webinars, latest offers, and new
+                services by WOS publications. You may unsubscribe from our
+                marketing communications by clicking on the “unsubscribe” link
+                located on the bottom of our e-mails, or by sending us an email
+                at{" "}
+                <a
+                  href="mailto:help@wospublications.co.uk"
+                  className="link link-hover text-blue-600"
+                >
+                  help@wospublications.co.uk
+                </a>
+                . Customers cannot opt out of receiving transactional emails
+                related to their account with us.
+              </li>
+            </ul>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">
+              13. Sensitive Personal Information?
+            </h4>
+            <p>
+              What Is Sensitive Personal Information? “Sensitive Personal
+              Information” is information about an individual that reveals their
+              racial or ethnic origin, political opinions, religious or
+              philosophical beliefs, trade union membership, genetic
+              information, biometric information for the purpose of uniquely
+              identifying an individual, information concerning health, or
+              information concerning a natural person’s sex life or sexual
+              orientation. We do not knowingly or intentionally collect
+              sensitive Personal Information from individuals, and you must not
+              submit sensitive Personal Information to us. If, however, you
+              inadvertently or unintentionally transmit sensitive Personal
+              Information to us, you will be considered to have explicitly
+              consented to us processing that sensitive Personal Information.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">14. Amendments to Privacy Policy</h4>
+            <p>
+              We may update this Privacy Policy from time to time to keep up
+              with changing legislation and best practices. If we make any
+              material changes, we will notify you by email (sent to the e-mail
+              address specified in your account) or by means of a notice on the
+              Website prior to the change becoming effective. Provided that we
+              will not notify you if we amend the Policy to make addition,
+              deletions, or modifications to the list of cookies from time to
+              time, to keep the list of cookies current and accurate. Your
+              continued use of this Websites or the Service(s) following the
+              posting of any amendment, modification, or change to this Policy
+              shall constitute your acceptance of the amendments to this Policy.
+              You can choose to discontinue use of the Websites or Service(s) if
+              you do not accept the terms of this Policy or any modified version
+              of this Policy.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">15. Legal Disclosure</h4>
+            <p>
+              We reserve the right to disclose your personal data as required by
+              applicable law, in response to lawful requests by public
+              authorities, including meeting national security or law
+              enforcement requirements and when we believe that disclosure is
+              necessary to protect our rights and/or to comply with a judicial
+              proceeding, court order, or other legal process served on us.
+            </p>
+          </div>
+          <div className="py-4">
+            <h4 className="text-2xl py-2">16. Contact Us</h4>
+            <p>
+              If you have any questions about this Privacy Policy or the data we
+              hold about you or you wish to ensure that the data we hold about
+              you is accurate and kept up to date, please do not hesitate to
+              contact us at{" "}
+              <a
+                href="mailto:help@wospublications.co.uk"
+                className="link link-hover text-blue-600"
+              >
+                help@wospublications.co.uk
+              </a>
+              . Effective Date: 1st Sept, 2020
+            </p>
           </div>
         </div>
       </main>

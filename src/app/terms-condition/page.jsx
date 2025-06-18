@@ -12,7 +12,7 @@ export default function TermsAndConditions() {
       </header>
       <main className="">
         <PopSide />
-        <div className="py-40 mx-50">
+        <div className="py-40 lg:mx-50 sm:mx-20 m-6">
           <h1 className="text-5xl font-bold text-yellow-300 py-4">
             {" "}
             Terms & Conditions
@@ -20,7 +20,7 @@ export default function TermsAndConditions() {
           <div className="p-4">
             <h4 className="text-2xl">General</h4>
             <p className="text-lg p-4">
-              <ul className="list-disc pl-5 space-y-2">
+              <ul className="list-disc lg:pl-5 pl-1 space-y-2">
                 <li>
                   Any references to "we," "us," "our," "I" refer to Clarivate
                   Publication. The Services are wholly offered and provided by
@@ -82,7 +82,7 @@ export default function TermsAndConditions() {
               Purpose of This Site and the Content Therein
             </h4>
             <p className="text-lg p-4">
-              <ul className="list-disc pl-5 space-y-2">
+              <ul className="list-disc lg:pl-5 pl-1 space-y-2">
                 <li>
                   All the information presented on this Site (“Content”) is for
                   informational purposes only and does not create a business or
@@ -105,7 +105,7 @@ export default function TermsAndConditions() {
           <div className="p-4">
             <h4 className="text-2xl">Fees and Invoicing</h4>
             <p className="text-lg p-4">
-              <ul className="list-disc pl-5 space-y-2">
+              <ul className="list-disc lg:pl-5 pl-1 space-y-2">
                 <li>
                   We will issue you a valid tax invoice in respect of each
                   service. We will notify you as soon as the deliverable is
@@ -168,7 +168,7 @@ export default function TermsAndConditions() {
           <div className="p-4">
             <h4 className="text-2xl">Refunds/Cancellation Policy</h4>
             <p className="text-lg p-4">
-              <ul className="list-disc pl-5 space-y-2">
+              <ul className="list-disc lg:pl-5 pl-1 space-y-2">
                 <li>
                   Please be notified that we do not entertain refund requests if
                   you change your mind. Once an order is delivered you are no
@@ -229,7 +229,7 @@ export default function TermsAndConditions() {
           <div className="p-4">
             <h4 className="text-2xl">Intellectual Property</h4>
             <p className="text-lg p-4">
-              <ul className="list-disc pl-5 space-y-2">
+              <ul className="list-disc lg:pl-5 pl-1 space-y-2">
                 <li>
                   The Content presented on this Site (including but not limited
                   to text, design, software, graphics, audio, video, HTML code,
