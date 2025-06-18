@@ -12,8 +12,8 @@ export default function TermsAndConditions() {
       </header>
       <main className="">
         <PopSide />
-        <div className="py-40 lg:mx-50 sm:mx-20 m-6">
-          <h1 className="text-5xl font-bold text-yellow-300 py-4">
+        <div className="py-40 lg:mx-50 sm:mx-10 m-4">
+          <h1 className="text-5xl pl-4 font-bold text-yellow-300 py-4">
             {" "}
             Terms & Conditions
           </h1>
