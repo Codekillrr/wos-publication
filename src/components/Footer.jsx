@@ -22,7 +22,7 @@ const Footer = () => {
 
       <nav className="text-white">
         <h6 className="footer-title opacity-100 text-yellow-200">Legal</h6>
-        <a className="link link-hover" href="/terms-condition/">
+        <a className="link link-hover" href="/terms-conditions/">
           Terms & Conditions
         </a>
         <a className="link link-hover" href="/privacy-policy/">
