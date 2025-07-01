@@ -55,7 +55,7 @@ export default function Home() {
                 className="px-4 py-2 btn bg-transparent text-white hover:bg-yellow-300/20  w-30 lg:w-40 lg:py-5 lg:text-xl border-2 border-white hover:border-yellow-400 rounded-lg"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+                href="https://wa.me/447466288605?text=Hi%20there%2C%20I%20have%20a%20question!"
               >
                 Live Chat
               </a>
@@ -237,7 +237,7 @@ export default function Home() {
           Lets get in touch
         </div>
         <div className="pt-1 text-lg">info@wospublication.com</div>
-        <div className="text-lg">+44 7724 695183</div>
+        <div className="text-lg">+44 7466 288605</div>
         <div className="border-t-[1px] border-gray-700 mt-5 p-4">
           © 2025 Copyrights <span className="text-yellow-500">IMN ARTS</span>
           <br className="lg:hidden" /> All Rights Reserved.

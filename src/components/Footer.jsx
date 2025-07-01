@@ -65,8 +65,8 @@ const Footer = () => {
 
       <nav className="text-white">
         <h6 className="footer-title opacity-100 text-yellow-200">Lets Talk</h6>
-        <a href="tel:+447724695183" className="link link-hover">
-          +44 7724 695183
+        <a href="tel:+447466288605" className="link link-hover">
+          +44 7466 288605
         </a>
         <a href="mailto:contact@wospublication.com" className="link link-hover">
           contact@wospublications.co.uk

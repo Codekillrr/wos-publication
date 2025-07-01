@@ -286,17 +286,17 @@ const MobileMenu = () => {
               <Link href={"/contact-us"}>CONTACT US</Link>
             </div>
             <div className="flex flex-row justify-between p-3 mt-1">
-              <a href="tel:+447724695183" className="cursor-pointer">
+              <a href="tel:+447466288605" className="cursor-pointer">
                 <div className="text-yellow-600 font-bold text-center">
                   Call Us Now
                 </div>
-                <div className="text-yellow-500">+44 (161) 791-3367</div>
+                <div className="text-yellow-500">+44 7466 288605</div>
               </a>
               <button className="text-[0.9rem] font-bold text-yellow-500 p-2 border-2 border-yellow-300 rounded-lg">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://wa.me/447724695183?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
+                  href="https://wa.me/447466288605?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
                 >
                   GET QUOTE
                 </a>

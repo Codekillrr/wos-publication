@@ -13,7 +13,7 @@ const Request = ({ Para, b1, b2, paraClass }) => {
           className="px-4 py-2 min-w-30 btn max-w-50 border-2 border-white lg:w-40 lg:py-5 lg:text-xl rounded-lg"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://wa.me/447724695183?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
+          href="https://wa.me/447466288605?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
         >
           {b1}
         </a>

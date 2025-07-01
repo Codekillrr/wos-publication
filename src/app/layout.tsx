@@ -40,7 +40,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Wos Publications",
-  description: "Professional editing and research publication services",
+  description:
+    "Professional academic editing and publishing support for researchers, students, and scholars. We offer expert services in thesis and dissertation editing, research paper proofreading, statistical analysis, plagiarism checking, journal selection, and resubmission support. From proposal to publication, we help you enhance clarity, accuracy, and impact.",
   url: "https://www.wospublications.co.uk",
   logo: "https://www.wospublications.co.uk/logo.png",
   image: "https://www.wospublications.co.uk/logo.png",
@@ -60,7 +61,7 @@ const organizationSchema = {
   },
   foundingDate: "2020", // Founding year
   keywords:
-    "academic editing, research publication, manuscript editing, publication services",
+    "academic editing, research publication, manuscript editing, publication services, thesis editing, dissertation editing, research paper editing, proofreading service, statistical analysis, journal selection, resubmission support, peer review services, plagiarism checker, literature search, research proposal editing, academic writing services",
 };
 
 export default function RootLayout({

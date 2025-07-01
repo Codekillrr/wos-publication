@@ -7,19 +7,6 @@ import Footer from "@/components/Footer";
 import PopSide from "@/components/ui/PopSide";
 
 export default function ContactUs() {
-  const patners = [
-    { img: "/client_logos/asme.webp", alt: "asme" },
-    { img: "/client_logos/blood.webp", alt: "blood" },
-    { img: "/client_logos/elsevier.webp", alt: "elsevier" },
-    { img: "/client_logos/esc.webp", alt: "esc" },
-    { img: "/client_logos/fsg.png", alt: "fsg" },
-    { img: "/client_logos/ieee.png", alt: "ieee" },
-    { img: "/client_logos/plos.webp", alt: "plos" },
-    { img: "/client_logos/qs.png", alt: "qs" },
-    { img: "/client_logos/rsc.png", alt: "rsc" },
-    { img: "/client_logos/thieme.webp", alt: "thieme" },
-  ];
-
   return (
     <div>
       <header className="z-10 relative">
@@ -37,7 +24,7 @@ export default function ContactUs() {
                   Publication Support"
                 </p>
                 <a
-                  href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+                  href="https://wa.me/447466288605?text=Hi%20there%2C%20I%20have%20a%20question!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline btn-warning"

@@ -169,18 +169,18 @@ const NavBar = () => {
         </div>
         <div className="w-auto flex flex-row justify-center gap-4 2xl:gap-10 max-[1200px]:hidden">
           <a
-            href="tel:+447724695183"
+            href="tel:+447466288605"
             className=" max-xl:hidden px-autotext-center text-md text-center cursor-pointer"
           >
             <span className="text-yellow-700">Call Us Now</span>
             <br />
-            <span className="text-zinc-600 w-full">+44 7724 695183</span>
+            <span className="text-zinc-600 w-full">+44 7466 288605</span>
           </a>
           <button className="w-30 max-lg:hidden btn ring-3 hover:bg-gradient-to-t from-yellow-300/60 to-transparent text-yellow-800 font-bold ring-yellow-300 p-2 rounded-lg">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/447724695183?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
+              href="https://wa.me/447466288605?text=Hi!%20I'm%20interested%20in%20getting%20a%20quote.%20Could%20you%20let%20me%20know%20how%20to%20proceed?"
             >
               Get Quote
             </a>
