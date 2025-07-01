@@ -83,7 +83,7 @@ const Footer = () => {
         <h6 className="footer-title opacity-100 text-yellow-200">Social</h6>
         <div className="grid grid-flow-col gap-4">
           <a
-            href="https://wa.me/447724695183?text=Hi%20there%2C%20I%20have%20a%20question!"
+            href="https://wa.me/447466288605?text=Hi%20there%2C%20I%20have%20a%20question!"
             target="_blank"
             rel="noopener noreferrer"
           >
